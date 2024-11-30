@@ -11,16 +11,19 @@ Feel free to explore, take inspiration, or adapt parts of these files to your ow
 |------------------------|----------------------------------|-----------------------------|  
 | **Window Manager**     | Hyprland                       | Fancy WM                    |  
 | **Compositor**         | Wayland                        | Built-in (DWM)              |  
-| **Shell**              | Nushell                        | Nushell                     |  
+| **Terminal**           | Zen                            | Windows                     | 
+| **Shell**              | Nushell                        | Bash                        |  
 | **Prompt**             | Starship                       | Starship                    |  
 | **Editor**             | Neovim + Lazyvim               | VSCodium + Lazyvim          |  
 | **Launcher**           | Rofi                           | Powertoys Built-in          |  
 | **Bar**                | Waybar                         | Built-in                    |  
 | **Terminal Emulator**  | Kitty                          | WezTerm                     |  
 | **Package Manager**    | Nix                            | Msys2 + Nix + Built in      |  
-| **Fonts**              | Nerd Font                     | Nerd Font                   |  
+| **Fonts**              | Nerd Font                      | Nerd Font                   |  
+| **Browser**            | Firefox + mtab                 | Zen Browser                 |  
 | **Theme**              | Tokyo Night                    | Tokyo Night                 |  
-
+| **Fetch**              | Fastfetch + Nitch              |
+| **File Manager**       | Thunar + Yazi                  |
 ---
 
 ### Getting Started  
