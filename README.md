@@ -15,7 +15,7 @@ Feel free to explore, take inspiration, or change parts of these files to your o
 | **Editor**             | Neovim + Lazyvim               | VSCodium + Lazyvim          |  
 | **Launcher**           | Rofi                           | Powertoys Built-in          |  
 | **Bar**                | Waybar                         | Built-in                    |  
-| **Terminal Emulator**  | Alacritty                      | WezTerm                     |  
+| **Terminal Emulator**  | Ghostty                        | WezTerm                     |  
 | **Package Manager**    | Nix                            | Scoop                       |  
 | **Fonts**              | Nerd Font 0xProto              | Nerd Font 0xProto           |  
 | **Browser**            | Zen Browser +  Mtab + Vimium   | Zen Browser + Mtab + Vimium          |  
@@ -46,6 +46,6 @@ Feel free to explore, take inspiration, or change parts of these files to your o
 
 ### Getting Started  
 1. Browse through the configurations in their respective directories:  
-   - **`nixos/`** for NixOS configs  
-   - **`windows/`** for Windows configs
+   - **`nix-conf/`** for NixOS configs  
+   - **`win-conf/`** for Windows configs
 2. Take whatever you want! (Please Cite)
