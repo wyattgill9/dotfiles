@@ -12,9 +12,9 @@ Feel free to explore, take inspiration, or change parts of these files to your o
 | **Kernel**             | Zen                            | Windows                     | 
 | **Shell**              | Nushell                        | Bash                        |  
 | **Prompt**             | Starship                       | Starship                    |  
-| **Editor**             | Neovim + Lazyvim               | VSCodium + Lazyvim          |  
+| **Editor**             | Neovim + Lazy.nvim             | VSCodium + Lazyvim          |  
 | **Launcher**           | Rofi                           | Powertoys Built-in          |  
-| **Bar**                | Waybar                         | Built-in                    |  
+| **Bar**                | Hyprpanel                      | Built-in                    |  
 | **Terminal Emulator**  | Ghostty                        | WezTerm                     |  
 | **Package Manager**    | Nix                            | Scoop                       |  
 | **Fonts**              | Nerd Font 0xProto              | Nerd Font 0xProto           |  
