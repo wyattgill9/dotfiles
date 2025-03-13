@@ -42,6 +42,6 @@ Feel free to explore, take inspiration, or change parts of these files to your o
 
 ### Getting Started  
 1. Browse through the configurations in their respective directories:  
-   - **`arch-conf/`** for NixOS configs  
+  - **`arch-conf/`** for NixOS configs  
    - **`win-conf/`** for Windows configs
 2. Take whatever you want! (Please Cite)
