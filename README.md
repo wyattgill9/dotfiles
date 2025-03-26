@@ -1,5 +1,5 @@
 # Dotfiles ✨
-A collection of my personal **PRODUCTIVE** and **FUN** configurations for both my **Arch** Desktop and **MacOS** Laptop maschines.  
+A collection of my personal **PRODUCTIVE** and **FUN** configurations for both my **Arch** Desktop and **MacOS** Laptop.  
 Feel free to explore, take inspiration, or change parts of these files to your own setup!  
 
 ---
