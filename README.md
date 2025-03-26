@@ -16,15 +16,16 @@ Feel free to explore, take inspiration, or change parts of these files to your o
 | **Launcher**           | Rofi                           | Raycast or Spotlight          |  
 | **Bar**                | Hyprpanel                      | Simple-Bar                    |  
 | **Terminal Emulator**  | Ghostty                        | Ghostty                     |  
-| **Package Manager**    | Pacman, AUR (Yay), Flatpak                             | Homebrew                       |  
+| **Package Manager**    | Pacman, AUR (Yay), Flatpak     | Homebrew                       |  
 | **Fonts**              | Nerd Font 0xProto              | Nerd Font 0xProto           |  
-| **Browser**            | Zen Browser +  Mtab + Vimium   | Arch Browser + Vimium          |  
+| **Browser**            | Zen Browser + Mtab + Vimium   | Arch Browser + Vimium          |  
 | **Theme**              | Tokyo Night                    | Tokyo Night                 |  
 | **Fetch**              | Fastfetch + Nitch              | Fastfetch                    |
-| **File Manager**       | Yazi + Thunar + Oil.nvim                | Yazi + Oil.nvim               |
+| **File Manager**       | Yazi + Thunar + Oil.nvim      | Yazi + Oil.nvim               |
+
 ---
 
-# Useful CLI Tools
+## Useful CLI Tools
 
 | Tool        | Description                                |
 |-------------|--------------------------------------------|
@@ -34,14 +35,30 @@ Feel free to explore, take inspiration, or change parts of these files to your o
 | `starship`  | Cross-shell prompt for minimalists.        | 
 | `dust`      | Alternative to `du` for disk usage.        |
 | `tldr`      | Simplified man pages.                      |
-| `zoxide`    | Smarter `cd` command.                      
-
+| `zoxide`    | Smarter `cd` command.                      |
 
 ---
 
+[**COMPUTER SPECS**](https://pcpartpicker.com/list/ygQKGJ)
+
+
+## Peripherals
+
+| **Device**      | **Model**                     |
+|----------------|------------------------------|
+| **Keyboard**   | Corne (Scratch), Highground 60% |
+| **Mouse**      | Logitech G Pro X Superlight  |
+| **Monitor**    | ASUS TUF 27" 1080p 240hz |
+| **Speakers**   |      Edifier MR4         | 
+|  **Desk-Desk** |      Made in School      |
+|  **"Symbols"** |        Traditional Mandarin (Taiwan)         |
+| **Chair**      | Dining room table chair  |
+| **Plants**     | No idea                  |
+
+---
 
 ### Getting Started  
 1. Browse through the configurations in their respective directories:  
-  - **`arch-conf/`** for Arch configs  
+   - **`arch-conf/`** for Arch configs  
    - **`mac-conf/`** for MacOS configs
 2. Take whatever you want!
