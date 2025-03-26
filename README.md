@@ -9,7 +9,7 @@ Feel free to explore, take inspiration, or change parts of these files to your o
 |------------------------|----------------------------------|-----------------------------|  
 | **Window Manager**     | Hyprland                       | AeroSpace                    |  
 | **Compositor**         | Wayland                        | Built-in (Quartz)              |  
-| **Kernel**             | Zen                            | Windows                     | 
+| **Kernel**             | Zen                            | Darwin                     | 
 | **Shell**              | Nushell                        | Zsh                        |  
 | **Prompt**             | Starship                       | Starship                    |  
 | **Editor**             | Neovim                         | Neovim           |  
