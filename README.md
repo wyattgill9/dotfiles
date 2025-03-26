@@ -18,7 +18,7 @@ Feel free to explore, take inspiration, or change parts of these files to your o
 | **Terminal Emulator**  | Ghostty                        | Ghostty                     |  
 | **Package Manager**    | Pacman, AUR (Yay), Flatpak                             | Homebrew                       |  
 | **Fonts**              | Nerd Font 0xProto              | Nerd Font 0xProto           |  
-| **Browser**            | Zen Browser +  Mtab + Vimium   | Zen Browser + Mtab + Vimium          |  
+| **Browser**            | Zen Browser +  Mtab + Vimium   | Arch Browser + Vimium          |  
 | **Theme**              | Tokyo Night                    | Tokyo Night                 |  
 | **Fetch**              | Fastfetch + Nitch              | Fastfetch                    |
 | **File Manager**       | Yazi + Thunar + Oil.nvim                | Yazi + Oil.nvim               |
