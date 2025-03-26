@@ -1,27 +1,27 @@
 # Dotfiles ✨
-A collection of my personal **PRODUCTIVE** and **FUN** configurations for both my **Arch** and **Windows 11** dual boot maschine.  
+A collection of my personal **PRODUCTIVE** and **FUN** configurations for both my **Arch** Desktop and **MacOS** Laptop maschines.  
 Feel free to explore, take inspiration, or change parts of these files to your own setup!  
 
 ---
 
 ## Configurations:  
-| **Component**         | **Arch**                       | **Windows 11**              |  
+| **Component**         | **Arch**                       | **MacOS - M4**              |  
 |------------------------|----------------------------------|-----------------------------|  
-| **Window Manager**     | Hyprland                       | Fancy WM                    |  
-| **Compositor**         | Wayland                        | Built-in (DWM)              |  
+| **Window Manager**     | Hyprland                       | AeroSpace                    |  
+| **Compositor**         | Wayland                        | Built-in (Quartz)              |  
 | **Kernel**             | Zen                            | Windows                     | 
-| **Shell**              | Nushell                        | Bash                        |  
+| **Shell**              | Nushell                        | Zsh                        |  
 | **Prompt**             | Starship                       | Starship                    |  
-| **Editor**             | Neovim + Lazy.nvim             | VSCodium + Lazyvim          |  
-| **Launcher**           | Rofi                           | Powertoys Built-in          |  
-| **Bar**                | Hyprpanel                      | Built-in                    |  
-| **Terminal Emulator**  | Ghostty                        | WezTerm                     |  
-| **Package Manager**    | Nix                            | Scoop                       |  
+| **Editor**             | Neovim                         | Neovim           |  
+| **Launcher**           | Rofi                           | Raycast or Spotlight          |  
+| **Bar**                | Hyprpanel                      | Simple-Bar                    |  
+| **Terminal Emulator**  | Ghostty                        | Ghostty                     |  
+| **Package Manager**    | Pacman, AUR (Yay), Flatpak                             | Homebrew                       |  
 | **Fonts**              | Nerd Font 0xProto              | Nerd Font 0xProto           |  
 | **Browser**            | Zen Browser +  Mtab + Vimium   | Zen Browser + Mtab + Vimium          |  
 | **Theme**              | Tokyo Night                    | Tokyo Night                 |  
-| **Fetch**              | Fastfetch + Nitch              | Winfetch                    |
-| **File Manager**       | Thunar + Ranger                | File Explorer               |
+| **Fetch**              | Fastfetch + Nitch              | Fastfetch                    |
+| **File Manager**       | Yazi + Thunar + Oil.nvim                | Yazi + Oil.nvim               |
 ---
 
 # Useful CLI Tools
@@ -42,6 +42,6 @@ Feel free to explore, take inspiration, or change parts of these files to your o
 
 ### Getting Started  
 1. Browse through the configurations in their respective directories:  
-  - **`arch-conf/`** for NixOS configs  
-   - **`win-conf/`** for Windows configs
-2. Take whatever you want! (Please Cite)
+  - **`arch-conf/`** for Arch configs  
+   - **`mac-conf/`** for MacOS configs
+2. Take whatever you want!

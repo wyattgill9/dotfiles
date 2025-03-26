@@ -1,0 +1,7 @@
+{
+  "default_city": "San Diego",
+  "api_url": "https://breeze.joeburgess.dev",
+  "units": "imperial",
+  "default_view": "default",
+  "show_tips": true
+}
