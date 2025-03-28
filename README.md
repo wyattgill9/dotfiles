@@ -59,6 +59,6 @@ Feel free to explore, take inspiration, or change parts of these files to your o
 
 ### Getting Started  
 1. Browse through the configurations in their respective directories:  
-   - **`arch-conf/`** for Arch configs  
-   - **`mac-conf/`** for MacOS configs
+   - **`arch-conf/`** for Arch configs [+ General configs]
+   - **`mac-conf/`** for MacOS specifc configs
 2. Take whatever you want!
