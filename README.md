@@ -3,6 +3,7 @@ A collection of my personal **PRODUCTIVE** and **FUN** configurations for both m
 Feel free to explore, take inspiration, or change parts of these files to your own setup!  
 
 ---
+![rice](https://github.com/user-attachments/assets/11da9964-abb3-4ce2-947c-97df762cf48f)
 
 ## Configurations:  
 | **Component**         | **Arch**                       | **MacOS - M4**              |  
