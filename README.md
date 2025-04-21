@@ -22,7 +22,7 @@ Feel free to explore, take inspiration, or change parts of these files to your o
 | **Browser**            | Zen Browser + Mtab + Vimium   | Arch Browser + Vimium          |  
 | **Theme**              | Tokyo Night                    | Tokyo Night                 |  
 | **Fetch**              | Fastfetch + Nitch              | Fastfetch                    |
-| **File Manager**       | Yazi + Thunar + Oil.nvim      | Yazi + Oil.nvim               |
+| **File Manager**       | Yazi + Thunar + Oil.nvim      | Yazi + Oil.nvim + finder               |
 
 ---
 
