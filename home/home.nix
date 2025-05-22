@@ -15,8 +15,8 @@
 
   programs.git = {
     enable = true;
-    userName = "wyattgill9";
-    userEmail = "wyaattgill01@outlook.com";
+    userName = "Wyatt Gill";
+    userEmail = "101477459+wyattgill9@users.noreply.github.com";
   };
 
   programs.starship = {
