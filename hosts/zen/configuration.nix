@@ -89,7 +89,6 @@
 
     # Shells & Tools
     zsh nushell tmux wget
-    jujutsu
 
     # Dev
     neovim gcc clang gnumake rustc cargo

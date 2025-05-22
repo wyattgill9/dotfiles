@@ -10,6 +10,10 @@
     enableAutosuggestions = true;
     initContent = ''
       eval "$(starship init zsh)"
+      
+      autoload -U compinit
+      compinit
+      source <(jj util completion zsh)
     '';
   };
 
@@ -31,7 +35,7 @@
     zoxide
     yazi
     starship
-    gh
+    jujutsu 
   ];
 
   systemd.user.startServices = "sd-switch";
