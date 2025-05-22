@@ -11,6 +11,9 @@
     initContent = ''
       eval "$(starship init zsh)"
       
+      eval "$(zoxide init zsh)"
+      alias cd="z"
+
       autoload -U compinit
       compinit
       source <(jj util completion zsh)
@@ -26,6 +29,46 @@
   programs.starship = {
     enable = true;
   };
+  
+  programs.cava = {
+    enable = true;
+    
+    settings = {
+      general = {
+        framerate = 240;
+        autosens = 4;
+        overshoot = 0;
+        sensitivity = 50;
+        bars = 0;
+        bar_width = 6.0;
+        bar_spacing = 1.0;
+      };
+      
+      smoothing = {
+        monstercat = 0;
+        waves = 0;
+        gravity = 100;
+      };
+    };
+  };
+
+  programs.helix = {
+    enable = true;
+    settings = {
+      theme = "tokyonight";
+      editor.cursor-shape = {
+        normal = "block";
+        insert = "bar";
+        select = "underline";
+      };
+    };
+    languages.language = [
+      {
+        name = "nix";
+        auto-format = true;
+      }
+    ];
+  };
 
   home.packages = with pkgs; [
     hello
@@ -36,6 +79,7 @@
     yazi
     starship
     jujutsu 
+    fzf
   ];
 
   systemd.user.startServices = "sd-switch";

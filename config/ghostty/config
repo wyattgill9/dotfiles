@@ -1,0 +1,23 @@
+# window-theme = dark
+font-family = "0xProto Nerd Font"
+window-decoration = false
+
+# Themes
+config-file = "themes/tokyo"
+background-opacity = 0.8
+
+
+# Shaders
+
+# custom-shader = shaders/bloom.glsl
+# custom-shader = shaders/test.glsl
+
+
+custom-shader-animation = true
+
+
+# Keybinds
+
+
+
+

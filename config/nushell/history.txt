@@ -1,0 +1,4031 @@
+clear
+fastfetch
+firefox
+clear
+firefoxs
+cear
+clear
+echo $SHELL
+clear
+starship init nu | save -f ~/.cache/starship/init.nu
+$nu.config-path
+cd .config/nushell
+clear
+ls
+nvim config.nu
+c;ear
+clear\
+clear
+config nu
+clear
+cd .
+clear
+ls
+nvim 
+nvim config.nu
+clear
+n
+clear
+cd ./config
+clear
+cd ~/.config/
+clear
+ls
+cd ghostty
+clear
+ls
+clear
+yay -S ags-hyprpanel-git
+clear
+hyprpanel
+clear
+cd hypr
+clear
+ls
+nvim hyprland.conf
+ckear
+clear
+cd .config
+clear
+ls
+clear
+cd hypr
+clear
+ls
+clear
+firefoax
+nvim hyprland.conf
+c;ear
+clear
+c;ear
+clear
+pacman -S hyprpaper
+sudo pacman -S hyprpaper
+clear
+hyprpaper
+clear
+sudo pacman -S tmux
+clear
+sudo pacman -S steam
+yay -S steam
+clear
+neovim
+clear
+ripgrep
+clear
+fzf
+clear
+sudo pacman -S fzf
+clear
+fzf
+clear
+sudo pacman -S ripgrep
+clear
+ripgrep
+rgrep
+grep
+clear
+grep
+grep --help
+grep -f
+clear
+sudo pacman -S zoxide
+clear
+z
+clear
+discord
+clear
+firefox 
+clear
+hyprpaper
+cklear
+ckear
+firefox
+clear
+thunar
+clear
+hyprpaper Downloads/animegirl.jpg
+hyprpaper --help
+hyprpaper -h
+clear
+cd .config/hypr
+ckear
+claer
+clear
+touch hyprpaper.conf
+clear
+nvim hyprpaper.conf
+hyprpaper
+clear
+hyprpaper -r
+clear
+nvim hyprpaper.conf
+clear
+hyprpaper 
+clear
+hyprctl monitors
+clear
+nvim hyprpaper.conf
+c;ear
+hyprpaper -r
+clear
+hyprpaper -r
+hyprpaper --config
+hyprpaper --config hyprpaper.conf
+cl;ear
+c;ear
+clear
+nvim hyprpaper.conf
+c;ear
+clear
+hyprpaper
+claer
+clear
+cd ~
+clear
+;s
+ls
+clear
+cd .config/hypr
+clear
+ls
+nvim hyprpaper.conf 
+cleear
+clear
+hyprpaper
+clear
+hyprctl monitors
+clear
+hyprctl monitors
+clear
+hyprctl monitors
+cd .config/
+cd hypr
+clear
+ls
+nvim hyprland.conf
+nvim hyprpaper.conf
+c;ear
+clear
+hyprpaper
+clera
+clear
+clear
+hyprpaper 
+clear
+;s
+clear
+firefox
+clear
+fastfetch
+clera
+clear
+hyprpanel
+cd .config/hypr
+clear
+nvim hyprland.conf
+clear
+hyprpaper
+clear
+git
+clear
+cd .config
+clear
+ls
+git clone https://github.com/wyattgill9/nvim-config.git
+clear
+ls
+mkdir nvim
+clear
+mv /nvim-config/* /nvim/<\n>
+;s
+ls
+mv /nvim-config/* /nvim/<\n>
+mv /nvim-config/.* /nvim/
+c;ear
+clear
+ls
+cd nvim-config
+clear
+sls
+clea
+rclear
+clear
+rm .git
+rm *.got
+rm *.git
+clear
+ks
+ls
+clear
+ls
+mv /nvim-config/* /nvim/<\n>
+clear
+cd ..
+clear
+rm -rf ./nvim-config
+ls
+lcear
+ls
+clear
+ls
+cd nvim
+clear
+git clone https://github.com/wyattgill9/nvim-config.git
+clear
+rm -rf /nvim-config/.git
+clear
+cd nvim-config
+git statut
+git status
+clear]=
+clear
+rm .git
+rmdir .git
+clear
+rm -rf .git
+clear
+git status
+cler
+clear
+cd ..
+mv /nvim-config/* .
+mv nvim-config/* .
+ls
+rmdir nvim-config
+clear
+ls
+clear
+nvim
+clear
+git init
+clear
+nvim
+clear
+cd ..
+clear
+code
+clear
+rofi -show run
+clear
+firefox
+clear
+sudo pacman -S steam
+clear
+ckear
+clear
+mkdir -p rofi
+mkdir rofi
+clear
+ls
+rofi -dump-config > ~/.config/rofi/config.rasi
+clear
+ls
+cd rofi
+ls
+clear
+rofi -dump-config > config.rasi
+ls
+clear
+cd ..
+clear
+rmdir rofi
+clear
+git clone --depth=1 https://github.com/adi1090x/rofi.git
+clear
+rofi
+ckear
+c;aer
+clear
+cd rofi
+clear
+chmod +x setup.sh
+clear
+./setup.sh
+ls
+clear
+cd ./
+cd ..
+ls
+clear
+git clone https://github.com/adi1090x/rofi.git
+cd rofi
+clear
+ls
+./setu
+./setup.sh
+clear
+./setup.sh
+claer
+clear
+ghostty
+claer
+clear
+firefox
+clear
+cd .config/ghostty
+clear
+ls
+nvim config
+claer
+clear
+ghostty
+close
+clear
+reboot
+sudo pacman -S libnet
+clear
+libnet
+clear
+let
+cleart
+clear
+cd .config/hypr
+claer
+clear
+nvim hyprland.conf
+clear
+nvim hyprland.conf
+c;ear
+clear
+rofi -show run
+claer
+cdlear
+clear
+cd ..
+clear
+ls
+cd rofi
+clear
+cd ..
+clear
+rm -rf ./rofi
+clear
+l;s
+ls
+clear
+hyprctl reload
+clear
+rofi -show run
+clear
+sudo pacman -S swaylock
+clear
+rofi
+clear
+sudo pacman -S cava
+clear
+yay -S cava
+caVA
+cav
+cava
+clear
+sudo pacman -S spotify
+clear
+yay -S spotify
+clear
+spotify
+clear
+gpg
+clear
+gpg -h
+gpg -list
+gpg -list keys
+gpg -list-keys
+clear
+btop
+clear
+sudo pacman -S btop
+clear
+btop
+claer
+cd .config
+clear
+mkdir btop
+clear
+cd btop
+clear
+touch btop.conf
+clear
+nvim btop.conf
+clear
+btop
+clear
+cdc ../hypr && nvim hyprland.conf
+cd ../hypr && nvim hyprland.conf
+cd ../hypr and nvim hyprland.conf
+cd /../hypr and nvim hyprland.conf
+c;ear
+cd ..
+cl;ear
+c;lear
+c;ear
+clear
+cd hypr and nvim hyprland.conf
+cd hypr | nvim hyprland.conf
+clear
+c;ear
+claer
+c;ear
+clear
+f
+clear
+hyprctl monitors all
+nvim hyprland.conf
+clear
+nvim hyprland.conf
+clear
+nvim hyprland.conf
+clear
+nvim hyprland.conf
+cd 
+cd .config
+claer
+cd hypr
+clear
+nvim hyprland.conf
+clear
+nvim hyprland.conf
+clear
+nvim hyprland.conf
+clear
+hyprctl reload
+clear
+nvim hyprland.conf
+clear
+nvim hyprland.conf
+clear
+nvim hyprland.conf
+clear
+nvim hyprland.conf
+clear
+nvim hyprland.conf
+nvim hyprland.conf\
+c;ear
+clear
+firefox
+clear
+nvim hyprland.conf
+c;ear
+claer
+clear
+nvim hyprpaper.conf
+c;ear
+c;earclear
+clear
+cd home
+clear
+cd /home/
+ls
+cd wyattgill
+ls
+cd .config
+clear
+cd hypr
+clear
+cd Documents
+clear
+ls
+cd Downloads
+ls
+nvim hyprpaper.conf
+clear
+firefox
+clear
+hyprpaper
+clear
+nvim hyprpaper.conf
+clear
+hyprpaper
+clear
+thundar
+clear
+clear
+cd //
+cd ~/.config/hypr
+clear
+ls
+nvim hyprpaper.conf
+clear
+thunar
+clear
+cd  ..
+clear
+ls
+cd wallpapers
+ls
+clear
+hyprpaper
+cd ..
+clear
+cd hypr | nvim hyprland.conf
+clear
+cd hypr | nvim hyprpaper.conf
+nvim hyprpaper.conf
+c;ear
+clear
+firefox
+cd .config/hyper | nvim hyprland.conf
+cd ~/.config/hyper | nvim hyprland.conf
+cd ~/.config/hypr | nvim hyprland.conf
+c;ear
+claer
+clear
+hyprctl reload
+clear
+hyprctl
+clear
+ls
+nvim hyprland.conf
+clear
+nvim hyprland.conf
+clear
+rofi 
+c;aer
+clear
+rofi
+rofi -show
+claer
+clear
+rofi -show run
+clear
+nvim hyprland.conf
+clear
+nvim hyprland.conf
+clear
+cd ../rofi
+clear
+cd ..
+clear
+cd rofi
+clear
+swaylock
+clear
+nitch
+pacman -R swaylock
+claer
+clear
+zoxide
+_ZO_DATA_DIR
+cear
+zoxide -h
+clear
+zoxide init
+zoxide init --help
+zoxide init nushell
+ls
+cd ~
+clear
+nvim zoxide.nu
+nvim .zoxide.nu
+clear
+cd .config/nushell
+clear
+ls
+nvim config.nu
+claer
+clear
+zoxide init nushell | save -f ~/.zoxide.nu
+clear
+nvim config.nu
+clear
+z
+clear
+zoxide
+clear
+z
+z -h
+clear
+$nu.env-path
+nvim env.nu
+clear
+clea
+claer
+clear
+z
+clear
+z foo
+clear
+z conf
+clear
+z .conf
+z .conf /
+clear
+cleacd ..c
+clear
+cd ..
+fzf
+c;ear
+clear
+nvim
+claer
+clear
+ckear
+clear
+sudo pacman -S bat
+clear
+z nu
+bat env.nu
+clear
+top
+clear
+htop
+cklear
+clear
+z ~
+ckear
+clear
+z dow
+ls
+z D
+z Down
+z -h
+claer
+zi
+clear
+z Downloads
+ls
+tar -xf zen.linux-86_64.tar.bz2
+tar -xf zen.linux-x86_64.tar.bz2
+ls
+clear
+zen
+clear
+cd zen
+ls
+./zen
+clear
+cd ..
+clear 
+cd ..
+clear
+zem
+zen
+clear
+./zen
+clear
+yazi
+ckear
+clear
+z ..
+cekar
+clear
+ls
+lsd
+clear
+sudo pacman -S exa
+clear
+exa
+clear
+cd .config
+ckear
+clear
+exa
+clear
+ls
+clear
+sudo pacman -R exa
+sudo pacman -r exa
+cd ..
+clear
+sudo pacman -r exa
+celar
+clear
+cd .config
+clear
+cd hypr
+clear
+nvim hyprland.conf
+clear
+clkear
+claer
+clear
+exa
+eax
+lsd
+clear
+exa
+clear
+cd ..
+clear
+cd Downloads
+clear
+ls
+cd zen
+cler
+ls
+clear
+./application.ini
+clear
+ls
+zen
+clear
+./
+zen
+clear
+zen
+clear
+./zen
+clear
+lear
+clear
+z .
+clear
+z .c
+clear
+z .sw
+sl
+ls
+clear
+mkdir swaylock
+cd swaylock
+clear
+touch config
+clear
+ls
+nvim config
+claer
+clear
+swaylock
+clear
+;s
+ls
+clear
+nvim config
+clear
+cd ..
+clear
+z hy
+clear
+ls
+touch hyprlock.conf
+clear
+nvim hyprlock.conf
+clear
+sudo pacman -S hyprlock
+clear
+hyprlock
+clear
+cava
+clear
+sudo pacman -S tldr
+clear
+tldr bat
+clear
+pacman -S thefuck
+sudo pacman -S thefuck
+clear
+lsd
+fuck
+clear
+./zen
+sudo pacman -S python
+clear
+python joe.py
+clear
+thefuck
+clear
+cd ..
+clear
+cd .config
+clear
+ls
+cd nushell
+clear
+nvim config.nu
+clear
+fuck
+clear
+nvim config.nu
+clear
+cd nu
+clear 
+cd ..
+clear
+cd nu
+clear
+z
+clear
+z
+clear
+cd
+cd -h
+clear
+fuck
+clear
+fuck
+claer
+cklear
+fuck
+c;ear
+clear
+cler
+fuck
+clear
+ls
+mkdir github
+clear
+ls
+cd github
+clear
+cd ..
+clear
+z G
+clear
+ls
+cd ..
+clear
+ls
+z g
+z github
+clear
+cd ..
+z g
+claer
+cd ..
+clear
+z gith
+clear
+zi
+clear
+cd ..
+clear
+rmdir githbu
+rmdir github
+clear
+mkdir Documents
+clear
+ls
+mkdir documents
+clear
+ls
+rmdir Documents
+clear
+ls
+rmdir documnet
+fuck
+clear
+rmdir documents
+ls
+mkdir Github
+clear
+ls
+claer
+cls
+c
+cl
+clear
+zi
+nvim config.nu
+clear
+cls
+cl
+clear
+cl
+ls
+cl
+clear
+sl
+clear
+sudo pacman -S scc
+claer
+yay -S scc
+ls
+clear
+cd go
+ls
+cd pkgs
+cd pkg
+ls
+clear
+cd ..
+clear
+cd ..
+clear
+scc
+clear
+yay -R scc
+clear]
+clear
+;s
+ls
+lcear
+clear
+go
+go run
+clear
+rm -rf ./go
+ls
+go
+claer
+ls
+clear
+ls
+go
+clear
+sudo pacman -S go
+clear
+sudo pacman -S go
+clear
+go
+clear
+ls
+clear
+sed
+tldr sed
+c;ear
+clear
+tree
+clear
+tee
+clear
+tldr tee
+clear
+htop
+clear
+cargo
+clear
+sudo pacman -S  rustup
+clear
+rustup
+tldr rustup
+clear
+rustup default stable
+ls
+clear
+z F
+cd ..
+clear
+z
+clear
+z f
+clear
+z foo
+clear
+cd ..
+clear
+z ..
+cd ~
+clear
+z~
+claer
+cd ~
+clear
+rustc --version
+clear
+cargo --version
+clear
+nvim
+claer
+clear
+nvim
+clear
+sudo pacman -S rust-analyzer
+clear
+rust-analyzer
+lear
+clear
+nvim
+clear
+cd github
+clera
+clear
+z Git
+ls
+z Github
+clear
+ps
+claer
+cls
+c;era
+duf
+cl
+bottom
+cls
+cl
+git clone https://github.com/wyattgill9/IMAP.git
+git clone 
+clear
+git clone git@github.com:wyattgill9/IMAP.git
+clear
+ks
+ls
+clear
+git config --global user.name "wyattgill9"<\n>git config --global user.email "wyattgill2009@gmail.com"<\n>
+clear
+git clone https://github.com/wyattgill9/IMAP.git
+clear
+git git@github.com:wyattgill9/IMAP.git
+git clone git@github.com:wyattgill9/IMAP.git
+c;ear
+clear
+git
+git config
+git config user.name
+git config user.email
+clear
+git config --global core.editor "neovim"<\n>
+git config --list
+clear
+gpg
+clear
+gpg -h
+tldr gpg
+gpg --full-generate-key
+clear
+cd ..
+clear
+sl
+ls
+z Down
+clear
+ls
+yazi
+clear
+sudo pacman -S unzip
+clear
+unzip
+clear
+tldr unzip
+cd Downloads
+unzip IMAP.zip
+ls
+unzip IMAP-main.zip
+clear
+ls
+IMAP-main
+clear
+ls
+cd IMAP-main
+ls
+clear
+ls
+cear
+clear
+cd ..
+clear
+ls
+thunar
+clear
+cd ..
+clear
+ls
+cd Github
+kls
+clear
+ls
+z Ima
+z I
+claer
+clear
+cd ..
+clear
+ls
+cd Github
+cear
+ls
+cear
+clear
+z IMAP-main
+clear
+ls
+bat cargo.toml
+bat Cargo.toml
+clear
+ls
+cd ..
+clear
+thunar
+clear
+cd imap
+clear
+hyprlock
+clear
+wofi
+clear
+wlogout
+clear
+sudo pacman -S wlogout
+clear
+tofi
+clear
+sudo pacman -S swww
+clear
+swww-daemon
+clear
+sudo pacman -R swww
+clear
+cd Github
+clear
+ls
+cd imap
+clear
+cargo run --release
+clear
+cd ..
+clear
+cd ..
+clear
+cd .confg
+clear
+cd .config
+clear
+ls
+cd hypr
+clear
+ls
+hyprlock
+nvim hyprlock.conf
+clear
+hyprlock
+clear
+nvim hyprlock.conf
+c;ear
+hyprlock
+clear
+ls
+clear
+hyprlock
+clear
+hyprlock
+clear
+nvim hyprlock.conf
+c;ear
+claer
+clear
+hyprlockk
+hyprlock
+clear
+nvim hyprlock.conf
+clear
+hyprlock
+clear
+nvim hyprlock.conf
+clear
+hyprlock
+nvim hyprlock.conf
+c;ear
+clear
+hyprlock
+clear
+clear
+sudo pacman -S waybar
+waybar
+c;ear
+clear
+hypridle
+clear
+cl
+c
+cl
+cd ..
+cd .
+cd ..
+clear
+ls
+mkdir hyprpanel
+clear
+cd hyprpanel
+touch config.json
+clear
+nvim config.json
+claer
+cl
+clear
+cl
+cd ..
+cl
+clear
+cl
+cd
+clear
+z
+zi
+clear
+ls
+cd wyattgill
+clear
+cd .config
+clear
+cl
+ls
+mkdir waybar
+clear
+ls 
+clear
+cava
+clear
+fastfetch
+firefox
+clear
+firefox
+clear
+ls
+cd .config
+clear
+ls
+mkdir fastfetch
+clear
+cd fastfetch
+ckear
+clear
+touch config.jsonc
+clear
+nvim config.jsonc
+clea
+clear
+fastfetch
+clear
+nvim config.jsonc
+clear
+fastfetch
+nvim config.jsonc
+clear
+fastfetch
+wofi
+clear
+cd ..
+ckear
+clear
+ls
+cd wofi
+clear
+kls
+ls
+claer
+ls
+clear
+ls
+nvim config
+clear
+ls
+nvim style.css
+c;ear
+clear
+wof
+cl
+clear
+wofi
+clear
+ls
+cd ..
+clear
+ls
+btop
+cd thefuck
+ls
+nvim rules
+nvim settings.py
+clear
+cd ..
+clear
+ls
+touch starship.toml
+clear
+ls
+c
+clear
+cl
+c
+cl
+c
+cl
+eza
+clear
+ls -lah
+clear
+cd .config
+clear
+nvim starship.toml
+clear
+source
+starship
+starship config
+vi
+sudo pacman -S vi
+clear
+starship config
+clear
+nvim starship.toml
+cd .config
+nvim starship.toml
+clear
+c;ear
+clear
+nvim starship.toml\
+clear
+c;ear
+cls
+cl
+nvim starship.toml
+clear
+nvim starship.toml
+clear
+claer
+clear
+sls
+slsf
+slf
+claer
+clear
+celar
+clearflwe
+fe
+ef
+lcear
+claer
+clear
+cl
+btop
+clear
+cd ..
+clear
+ls
+cd .config
+clear
+ls
+cd fastfetch
+ls
+clear
+fastfetch
+nvim config.jsonc
+clear
+fastfetcg
+clear
+fastfetch
+nvim config.jsonc
+clear
+fastfetch
+clear
+nvim config.jsonc
+clear
+fastfetch
+nvim config.jsonc
+clear
+fastfetch
+clear
+c
+clear
+z ..
+z .config | nvim starship.toml
+clear
+cklear
+clear
+celar
+z
+cl
+c
+close
+cls
+cl
+fl
+cl
+lc
+clear
+cd Github
+clear
+kls
+ls
+clear
+cd imap
+clear
+thunar
+clear
+cd Github
+clear
+ls
+cd IMAP
+claer
+cls
+cl
+cargo run --release
+clear
+nvim .
+clear
+git add .
+claer
+cls
+cl
+ls
+clear
+git init
+clear
+git commit .
+git commit
+git add .
+clear
+git status
+git commit
+clear
+git commit .
+commit
+cls
+clear
+git
+git push
+cd ..
+clear
+rm -rf ./IMAP
+clear
+ls
+claer
+c
+fuck
+clear
+hel
+fk
+clera
+cl
+git clone https://github.com/wyattgill9/IMAP.git
+clear
+ls
+cd imap
+clear
+z I
+zi
+clear
+cd IMAP
+cls
+cl
+git status
+cls
+cl
+clear
+fastfetch
+reboot
+yay -S minecraft_launcher
+yay -S mincraft_launcher
+yay -S minecraft_launcher
+yay -Ss minecraft_launcher
+cl
+firefox
+clear
+glmark2
+sudo pacman -S glmark2
+glmark2
+clear
+sudo pacman -Syu
+clear
+firefox
+clear
+yay -S minecraft-launcher
+clear
+clearclear
+clear
+claer
+clear
+claer
+clear
+qwertyuiopasdfghjklzxcvbnjm
+cl
+ls
+zoxide
+cl
+sudo pacman -Syu
+clear
+sudo pacman -S steam
+ckear
+clear
+sudo pacman -S multilib
+clear
+z /etc/
+ls
+nvim pacman.conf
+sudo nvim pacman.conf
+clear
+sudo pacman -S steam
+sudo pacman -Syy
+clear
+sudo pacman -S steam
+clear
+steam
+clear
+firfox
+ls
+cd Github
+clear
+ls
+z IMAP
+clear
+ls
+nvim .
+clear
+cd ..
+claer
+ls
+cd ..
+clear
+ls
+cd .config
+clear
+ls
+cd nvim
+ckear
+lsl
+clear
+lc
+cl
+ls
+cd lua
+clear
+ls
+cd plugins
+ls
+clear
+ls
+code .
+clear
+cd ..
+clear
+ls
+clear
+ls
+cd ..
+clear
+ls
+code .
+Xclear
+cl
+nvim
+clear
+nvim
+clear
+nvim
+c;ear
+clear
+nvim
+clear
+nvim
+clear
+nvim
+c;aer
+c;ear
+clear
+nvim
+clear
+nvim
+clear
+nvim
+c;ear
+claer
+cls
+cl
+nvim
+clear
+nvim
+clear
+telescope
+clear
+nvim
+claer
+ls
+clear
+ls
+cd ..
+clear
+ls
+cd ..
+clear
+lsl
+clear
+ls
+cd Github
+clear
+ls
+cd IMAP
+clear
+ls
+nvim .
+clear
+z~
+clear
+cdi
+cl
+clear
+cd Downloads
+ls
+rm -rf ./zen
+ls
+clear
+cd ..
+trashbin
+clear
+yay S zen browser
+zen
+cl
+zenity
+tldr zenity
+cl
+clear
+ssh
+clear
+tmux -c
+clear
+tmux
+git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
+clera
+clear
+$XDG_CONFIG_HOME
+XDG_CONFIG_HOME
+cd XDG_CONFIG_HOME
+cd $(XDG_CONFIG_HOME)
+claer
+cl
+cd .config
+clear
+mkdir tmux
+clear
+cd tmux
+claer
+ls
+touch tmux.conf
+clear
+.config/tmux/tmux.conf
+clear
+nvim tmux.conf
+clear
+tmux source ~/.config/tmux/tmux.conf
+z ~
+clear
+z .
+z .con
+z tmu
+clear
+cl
+claer
+clear
+tmux
+clear
+nvim tmux.confq
+c;ear
+nvim tmux.conf
+clear
+nvim tmux.conf
+clear
+cd ..
+clear
+z nvim
+clear
+ls
+cd lua
+ls
+cd config
+ls
+nvim lazy.lua
+c;ear
+clear
+nvim
+c;aer
+claer
+c;lear
+clear
+nvim
+c;ea
+rcd..
+clear
+cd ..
+clear
+ls
+cd ..
+clear
+cd tmux/
+clear
+ls
+nvim tmux.conf
+clear
+source tmux.conf
+tmux source tmux.conf
+c;ear
+clear
+c
+cd .config/tmux
+clear
+nvim tmux.conf
+clear
+tmux source tmux.conf
+clear
+__zoxide_z 
+clear
+tmux source tmux.conf
+cd .config/tmux
+clear
+l
+cl
+nvim tmux.conf
+clear
+nvim tmux.conf
+cl;ear
+clear
+nvim tmux.conf
+tmux source tmux.conf
+nvim tmux.conf
+tmux source tmux.conf
+clear
+tmux source tmux.conf
+nvim
+z .c
+z tm
+nvim tmux.conf
+c;ear
+claer
+fk
+clear
+fuck
+cls
+cl
+source tmux.conf
+tmux source tmux.conf
+clear
+nvim tmux.conf
+rm tmux.conf
+clear
+tmux source-file tmux.conf
+z .config/tmux/
+cl
+nvim tmux.con
+nvim tmux.conf
+tmux source-file tmux.conf\
+tmux source-file tmux.conf
+clear
+nvim tmux.conf
+claer
+tmux source-file tmux.conf
+clear
+tmux
+cl
+tmux refresh-client
+clear
+tmux
+clear
+tmux
+tmux kill-window 12
+tmux kill-server
+clear
+new window
+clear
+tmux new window
+clear
+cd .config/tmux/ | nvim tmux.conf
+tmux source-file tmux.conf
+clear
+tmux source-file tmux.conf
+nvim tmux.conf
+claer
+clear
+tmux source-file tmux.conf
+clear
+:clear
+clear
+nvim tmux.conf
+tmux source-file tmux.conf
+clear
+tmux source-file tmux.conf
+clear\
+clear
+cd .config/ghostty
+clear
+ls
+nvim config
+c;ear
+claer
+ghostty +list-fonts
+clear
+z .config/ghostty
+clear
+ls
+nvim config
+clear
+z .config/ghostty
+nvim config
+z .config/ghostty
+nvim config
+c;ear
+clear
+open gl
+opengl
+claer
+clear
+sudo pacman -S OpenGL
+clear
+yay S OpenGL
+clear
+cd .config/ghostty
+ls
+clear
+ls
+nvim config
+clear
+clear
+ls
+btop
+ckear
+clear
+zen 
+clear
+ls
+clear
+mkdir shaders
+clear
+ls
+z shaders
+clear
+ls
+clear
+sudo pacman -S base-devel mesa libglvnd glfw glm<\n>
+clear
+cd shaders
+clear
+cd ~
+clear
+nvim .
+clear
+ls
+clear
+touch main.cpp
+nvim main.cpp
+g++ -o main.cpp -lGL -lGLEW -lglfw<\n>
+clear
+cd ..
+g++ -o shaders main.cpp -lGL -lGLEW -lglfw<\n>
+ls
+cd shaders
+g++ -o shaders main.cpp -lGL -lGLEW -lglfw<\n>
+ls
+nvim main.cpp
+clear
+cd ..
+clear
+lss
+ls
+cd ..
+ls
+cd main.cpp
+nvim main.cpp
+clear
+nvim
+cd .config
+clear
+nvim .
+clear
+nvim
+ckear
+cd ghostty
+clear
+cd shaders
+ls
+touch main.cpp
+clear
+ls
+nvim main.cpp
+clear
+ls
+cd ..
+clear
+g++ -o shaders main.cpp -lGL -lGLEW -lglfw<\n>
+cd shaders
+ls
+g++ -o shaders main.cpp -lGL -lGLEW -lglfw<\n>
+sudo pacman -S glew<\n>
+clear
+g++ -o shaders main.cpp -lGL -lGLEW -lglfw<\n>
+claer
+ls
+clear
+./shaders
+kitty
+ls
+cd .config/ghostty
+clear
+ls
+cd shaders
+claer
+ls
+clear
+ls
+./shaders
+nvim main.cpp
+clear
+g++ -o shaders main.cpp -I/usr/include/GL -lGL -lGLEW -lglfw<\n>
+clear
+./shaders
+clear
+ls
+nvim shaders
+rm shaders
+clear
+ls
+nvim main.cpp
+clear
+g++ -o seascape_shader main.cpp -I/usr/include/GL -lGL -lGLEW -lglfw<\n>
+./seascape_shader<\n>
+rm seascape_shader
+clear
+rm main.cpp
+clear
+touch main.cpp
+clear
+cd ..
+clear
+ls
+nvim config
+cl;aer
+clear
+mkdir themes
+clear
+nvim config
+clear
+nvim config
+ls
+cd themes
+touch tokyo
+clear
+cd ..
+nvio
+fk
+nvim
+celar
+c;ear
+ck
+fk
+claer
+clear
+nvim config
+clear
+ls
+cd themes
+nvim tokyo
+clear
+cd shaders
+clear
+cd ..
+touch shaders
+ls
+cd shaders
+ls
+clear
+touch shader
+;s
+ls
+clear
+rm -shader
+clear
+rm shader
+clear
+ls
+cd ..
+clear
+ls
+touch "shader"
+ls
+nvim shader
+clear
+ks
+clear
+l
+clear
+ls
+nvim config
+clear
+nvim shader
+clear
+nvim config
+clear
+nvim config
+cd shader
+clear
+cd shaders
+clear
+ls
+touch bloom.glsl
+clear
+nvim bloom.glsl
+clear
+cd ..
+cd shaders
+rm main.cpp
+clear
+ls
+cd ..
+celar
+claer
+clear
+ls
+nvim shader
+clear
+nvim shader
+nvim config
+;ear
+c;ear
+clear
+ghostty 
+clear
+claer
+nvim
+clear
+cd .config/ghostty
+clear
+claer
+clear
+nvim config
+clear
+nvim config
+clear
+z .config/ghostty/
+clear
+ls
+rm shader
+clear
+ls
+clear
+nvim config
+c;ear
+clear
+nvim config
+ls
+cd .config/ghostty/
+cl;ear
+ls
+nviom config
+clear
+nvim config
+clear
+nvim .
+clear
+nvim .
+clear
+nvim .
+cd .config/ghostty
+c;ear
+clear
+ls
+nvim config
+c;ear
+clear
+cd .config
+clear
+cd ghostty
+clear
+ls
+cd shaders
+clear
+ls
+nvim bloom.glsl
+c;ear
+clear
+cd ..
+clear
+nvim config
+c;ear
+clear
+nvim
+c;ear
+clear
+c;ear
+fl
+fk
+clear
+fuck
+fck
+fk
+clear
+fk
+clear
+cd .config/nvim
+clear
+ls
+cd lua
+clear
+ls
+cd plugins
+ls
+nvim treesitter.lua
+clear
+nvim
+c;ear
+clear
+cd ~/.config
+cd ghostty
+clear
+clera
+claer
+clear
+claer
+clear
+claer
+clear
+cd shaders
+clear
+cd ..
+ls
+clear
+cd shaders
+lcea
+rls
+clear
+nvim .
+c;ear
+claer
+clear
+touch test.glsl
+cd glsl
+nvim glsl
+clear
+ls
+nvim glsl
+nvim test.glsl
+c;ear
+clear
+rm glsl
+clear
+ls
+cd ..
+ls
+nvim config
+clear
+nvim config
+c;ear
+clear
+cd .config/ghostty/shader
+cd .config/ghostty/shaders
+clear
+ls
+clear
+nvim test.glsl
+clear
+cd ..
+clear
+ls
+nvim config
+clear
+nvim bloom.glsl
+clear
+nvim test.glsl
+clear
+nvim test.glsl
+clear
+nvim test.glsl
+clear
+nvim test.glsl
+clear
+cd ..
+nvim config
+clear
+ls
+cd Github
+clearls
+clear
+sl
+clear
+ls
+cd IMAP
+git pull
+cd ..
+c;ear
+clear
+ls
+mkdir secrets
+clear
+cd secrets
+clear
+ls
+touch secrets.txt
+nvim secrets.txt
+cd ..
+clear
+z IM
+clear
+cargo test --release
+cd .config
+clear
+cd rofi
+cd ..
+clear
+git clone --depth=1 https://github.com/adi1090x/rofi.git
+cd rofi
+chmod +x setup.sh
+./setup.sh
+rofi
+cd launcher
+ls
+cd files
+ls
+cd ..
+clear
+cd .config
+ls
+rm -rf ./rofi
+ls
+clear
+cd rofi
+clear
+mkdir rofi
+clear
+cd rofi | touch config.rasi | nvim config.rasi
+clear
+rofi -dump-config > config.rasi
+nvim config.rasi
+c;ear
+clear
+tofi
+wofi
+clear
+nvim config.rasi
+clear
+nvim config.rasi
+clear
+cd ..
+git clone --depth=1 https://github.com/adi1090x/rofi.git
+cd rofi
+cd ..
+rm -rf ./rofi
+clear
+git clone --depth=1 https://github.com/adi1090x/rofi.git
+cd rofi
+cler
+clear
+code .
+clear
+cd rofi
+clear
+chmod +x setup.sh
+./setup.sh
+clear
+cd files
+cd launchers
+clear
+ls
+cd type-2
+clear
+ls
+./launcher.sh
+clear
+./launcher.sh
+clear
+./launcher.sh
+clear
+./launcher.sh
+rofi -show drun
+rofi -show drun -theme 
+clear
+./launcher.sh
+claer
+./launcher.sh
+clear
+./launcher.sh
+clear
+cd ..
+clear
+cd .config
+ls
+cd wyattgill
+cd .config
+clear
+cd rofi
+cd launchers
+ls
+cd type-2
+clear
+ls
+./launcher.sh
+clear
+cd ..
+clear
+cd ~/.config
+clear
+ls
+cd rofi
+clear
+ls
+cd config
+clear
+l
+ls
+./launcher.sh
+clear
+./launcher.sh
+clear
+./launcher.sh
+clear
+./launcher.sh
+clear
+cd ..
+clear
+cd ..
+clear
+cd ..
+clear
+./launcher.sh
+clear
+./launcher.sh
+clear
+cd ..
+clear
+cd wyattgill/.config/rofi
+clear
+ls
+./launcher.sh
+clear
+./launcher.sh
+clear
+rm -rf *.git
+clear
+ls
+git status
+clear
+./launcher.sh
+clear
+./launcher.sh
+clear
+cd wyattgill/.config/nushell
+clear
+ls
+nvim config.nu
+clear
+cd ..
+clear
+cd hypr
+clear
+ls
+nvim hyprland.conf
+clear
+sudo pacman -S swww
+clear
+sww
+swww
+clear
+cd ..
+clear
+cd hypr
+clear
+sddm
+clear
+hyprlock
+clear
+obsidian
+clear
+sudo pacman -S obsidian
+obsidian
+spotify
+clear
+sudo pacman -S spotify
+clear
+yay S spotify
+clear
+sudo pacman -S spotify-launcher
+clear
+nitch
+sudo pacman -S linux-zen linux-zen-headers
+clear
+nitch
+linux-zen
+clear
+kernel
+su
+claer
+clear
+nitch
+clear
+sh -c "$(curl -sS https://raw.githubusercontent.com/Vendicated/VencordInstaller/main/install.sh)"
+clear
+vencord
+clear
+ls
+clear
+discord
+clear
+sddm
+clear
+cd ..
+clear
+cd ..
+celar
+clear
+ls
+cd usr/share
+ls
+cd xsessions
+ckear
+clear
+exa
+cd sddm
+ls
+clear
+ls
+cd themes
+ls
+cd maya
+ls
+readme
+nvim .
+clear
+cd ..
+clear
+cd ..
+clear
+ls
+tldr ripgrep
+tldr rg
+rg "Name="
+cd /etc/
+clear
+ls
+rg "Current="
+sudo rg "Current="
+clear
+cd ..
+clear
+sudo rg "Current="
+clear
+cd .config/hypr
+cl
+ls
+nvim hyprpaper.conf
+clear
+hypr
+cclaer
+clera
+clear
+hyprctl reload
+clear
+hyprpaper
+clear
+cd ..
+clear
+cd ghostty
+clear
+ls
+cd shaders
+ls
+nvim .
+c;ear
+clear
+cd ..
+clear
+ls
+nvim .
+clear
+yay S davinci-resolve
+clear
+divinci-resolve
+pacman
+yay -g
+yay -h
+java
+clear
+java
+clear
+java -v
+javac -v
+clear
+java -version
+clear
+rocm-opencl-runtime
+rocm-opencl-runtime -h
+rocm-opencl-runtime -v
+rocm
+clear
+btop
+clear
+cd .config/nvim
+clear
+ls
+cd lua
+clear
+ls
+cd config
+lcea
+clear
+ls
+cd ..
+clear
+cd ..c
+cd ..
+clear
+nvim .
+clear
+nvim
+c;ear
+clear
+nvim
+rg
+clear
+cd ..
+celarl
+cd nvim
+clear
+code .
+rg
+clear
+nvim
+clear
+nvim .
+c;ear
+clear
+c;ear
+nvim .
+c;ear
+clear
+c;ear
+nvim .
+c;aer
+claer
+fl
+fk
+clear
+nvim .
+clear
+nvim
+clear
+nvim
+clear
+nvim
+c;ear
+claer
+clear
+nvim
+clear
+nviom
+nvim
+clear
+cd .config
+clear
+ls
+cd fastfetch
+ls
+nvim config.jsonc
+thunar
+thunar
+cd .config/fastfetch
+ls
+nvim .
+clear
+fastfetch
+lcear
+clear
+ls
+nvim config.jsonc
+clear
+nvim config.jsonc\
+c;ear
+clear
+ls
+fastfetch
+nvim config.jsonc
+clear
+fastfetch
+clear
+fastfetch
+sudo pacman Syu
+sudo pacman -Syu
+clear
+fastfetch
+cd .config/fastfetch | thunar
+clear
+unzip
+clear
+ls
+rm mirin.jpg
+clear 
+cd ~/Downloads
+clear
+ls
+unzip jpg2png.zip
+clear
+ls
+mirin.png
+./mirin.png
+clear
+thunar
+clear
+nvim .
+clear
+thunar
+clear
+thunar
+c;ear
+clear
+ls
+nvim config.jsonc
+clear
+fastfetch
+nvim config.jsonc
+cl
+fastfetch
+clear
+fastfetch
+nvim config.jsonc
+clear
+ls
+nvim config.jsonc
+clear
+nvim config.jsonc
+clear
+fastfetch
+clear
+fastfetch --logo ~/.config/fastfetch/mirin.png
+fastfetch --chafa --logo ~/.config/fastfetch/mirin.png
+clear
+nvim config.jsonc
+clear
+fastfetch --logo ~/.config/fastfetch/mirin.png
+clear
+fastfetch
+clear
+thunar
+yay -S spicetify-cli
+clear
+sudo chmod a+wr /opt/spotify<\n>sudo chmod a+wr /opt/spotify/Apps -R
+sudo chmod a+wr /opt/spotify/Apps -R
+clear
+~/.local/share/spotify-launcher/install/usr/share/spotify/
+sudo chmod a+wr ~/.local/share/spotify-launcher/install/usr/share/spotify/
+c;ear
+clear
+sudo chmod a+wr ~/.local/share/spotify-launcher/install/usr/share/spotify/
+spotify-path
+btop
+claer
+clear
+sudo nano /etc/hostname
+clear
+hostname
+man usermod
+clear
+tldr usermod
+sudo -l wyattgill zen
+clear
+sudo usermod -l wyattgill zen
+clear
+reboot
+bat /etc/passwd
+id wyattgill
+rg '^wyattgill' /etc/passwd
+groups wyattgill
+ls -ld /home/wyattgill/
+usermod -l
+usermod -l wyattgill zen
+clear
+sudo nano /etc/hostname
+clear
+sudo nano /etc/hosts
+clear
+sudo systemctl restart systemd-hostnamed<\n>
+clear
+xfce
+clear
+nano /etc/passwd/
+clear
+pacman -S crystal shards<\n>
+SUDO pacman -S crystal shards<\n>
+sudo pacman -S crystal shards<\n>
+claer
+crystal
+clear
+sudo pacman -S nim
+nim
+clear
+nom
+npm
+clear
+cd Github
+clear
+mkdir nimlines
+claer
+cd nimelines
+cd nimlines
+clear
+touch hello.nim
+clear
+nvim hello.nim
+clear
+nim c -d:nodebug hello.nim<\n>
+./hello
+nvim hello.nim
+clear
+nvim hello.nim
+clear
+lsp
+nvim .
+clear
+nvim .
+clear
+cd ..
+cd..
+cd ..
+clear
+cd .config/nvim
+clear
+ls
+cd lua
+clear
+ls
+cd plugins
+lks
+ls
+nvim .
+clear
+cd ..
+clear
+cd Github
+cd nimlines
+cklear
+clera
+claer
+clear
+nvim .
+nvi,
+cd Github
+claer
+ls
+cd nimlines
+clear
+ls
+nvim /
+cd Github/nimlines
+clear
+ls
+mkdir -p NimLines/src<\n>mkdir -p NimLines/tests<\n>touch NimLines/README.md<\n>touch NimLines/src/loc_counter.nim<\n>touch NimLines/tests/test_loc_counter.nim<\n>
+mkdir NimLines/src<\n>mkdir NimLines/tests<\n>touch NimLines/README.md<\n>touch NimLines/src/loc_counter.nim<\n>touch NimLines/tests/test_loc_counter.nim<\n>
+clear
+ls\
+clear
+sl
+clear
+ls
+cd nimliens
+rm -rf ./NimLines
+clear
+ls
+mkdir src tests
+claer
+ls
+claer
+ls
+clear
+ls
+touch src/loc_counter.nim<\n>touch tests/test_loc_counter.nim<\n>touch README.md<\n>
+clear
+ls
+git init
+clear
+git add .
+clear
+git commit .
+clear
+git commit .
+claer
+clear
+ls
+rm hello
+clear
+ls
+rm hello.nim
+clear
+touch run_counter.sh
+clear
+ls
+nvim ./
+c;ear
+claer
+ckaer
+clear
+chmod +x run.sh
+ks
+ls
+chmod +x run_counter.sh
+clear
+ls
+./run_counter
+./run_counter.sh
+clear
+claer
+clear
+git add .
+clear
+git commit
+clear
+./run_counter.sh
+claer
+clear
+nvim .
+ls
+cd tests
+ls
+rm test_loc_counter.nim
+clear
+ls
+touch test.txt
+touch main.rs
+touch hello.nim
+touch main.txt
+clear
+./run_counter.sh
+cd ..h
+clear
+cd ..
+claer
+ls
+claer
+clear
+ls
+./run_counter.sh tests
+nvim .
+clear
+clear
+./run_counter.sh tests
+c;ear
+clear
+./run_counter.sh tests
+nvim .
+./run_counter.sh tests
+c;ear
+claer
+clear
+./run_counter.sh tests
+clear
+./run_counter.sh tests
+clear
+./run_counter.sh tests/
+./run_counter.sh /tests
+c;ear
+cl
+./run_counter.sh tests
+ls
+touch make.sh
+nvim make.sh
+./make.sh
+chmod +x make.sh
+/make.sh
+,/make.sh
+./make.sh
+c;ea
+r;s
+fk
+clear
+ls
+cd tests
+ls
+rm mani.rs
+rm hello.nim
+rm main.rs
+rm main.txt
+clear
+ls
+rm test.txt
+clear
+./run_counter.sh tests
+cd ..
+claer
+fk
+clear
+./run_counter.sh tests
+ls
+rm make.sh
+clear
+ls
+cd src
+ls
+clear
+cd ..
+cear
+clear
+ls
+./run_counter.sh ../tests
+nvim run_counter.sh
+clear
+nvim run_counter.sh
+clear
+./run_counter.sh ../tests
+./run_counter.sh /tests
+c;ear
+clear
+./run_counter.sh /tests
+thunar
+claer
+clear
+cd src
+ls
+./run_counter.sh /tests
+clear
+./run_counter.sh /tests
+c;ear
+clear
+cd src
+clear
+ls
+clear
+./run_counter.sh /tests
+cll
+cl
+git add.
+clear
+git add .
+clear
+git commit 
+git commit --force
+git commit -force
+c;ear
+clear
+git commit 
+clear
+./run_counter.sh /tests
+nvim .
+clear
+git add .
+clear
+cd ..
+clear
+git commit "Init"
+git commit ."Init"
+git commit .
+cd Github/nimlines
+clear
+ls
+git commit .
+git init
+clear
+git add .
+clear
+git commit .
+clear
+git commit -m "Init"<\n>
+clear
+ls
+cd ..c
+cd ..
+clear
+ls
+cd IMAP
+clear
+cargo bench
+ls
+clear
+cd ..
+nvim secrets.txt
+clear
+ls
+cd secrets
+clear
+ls
+git pull
+clear
+cargo bench
+clear
+ls
+cd benches
+clear
+nvim .
+clear
+nvim secrets.txt
+clear
+cd ..
+cd IMAP
+clear
+cargo test --release
+cargo install+nightly wizard
+cargo install wizard
+cargo install cargo-wizard
+clear
+cargo wizard
+clear
+cargo wizard
+cargo-pgo
+$ cargo install cargo-pgo
+cargo install cargo-pgo
+clear
+$ rustup component add llvm-tools-preview
+rustup component add llvm-tools-preview
+clear
+cargo pgo build
+git add .
+clear
+cargo pgo run 
+clear
+pgo
+clear
+cargo run
+cargo wizard
+rustc
+clear
+rustc
+cargo wizard
+rustc set nightly
+cargo set nightly
+clear
+rustup set nightly
+rustup default nightly
+clear
+cargo run
+cargo test
+clear
+cargo test
+clear
+cargo bench
+clear
+cargo pgo test
+clear
+cargo pgo bench
+clear
+cargo pgo info
+rustup component add llvm-tools-preview
+clear
+cargo pgo info
+cargo pgo build
+./target
+cd ..
+cd target
+ls
+cd deug
+cd ..
+clear
+cargo pgo bolt build --with-pgo
+clear
+cargo pgo build test
+clear
+cargo pgo test
+clear
+cargo pgo bench
+clear
+cargo pgo info
+cargo pgo optimize test
+cargo pgo optimize bench
+clear
+ls
+git staus
+git status
+cd .cargo
+ls
+nvim .
+clear
+cd .gitignore
+cd ..
+nvim .gitignore
+clear
+git add .
+ckear
+clear
+cd benches
+ls
+nvim .
+clear
+cargo pgo optimize bench
+cd ..
+clear
+ls
+nvim .
+clear
+cargo pgo optimize bench
+nvim .
+cargo pgo optimize bench
+cargo pgo optimize bench
+cd Github/IMAP
+cargo pgo optimize bench
+clear
+nvim .
+clear
+cargo pgo optimize bench
+nvim .
+cargo pgo optimize bench
+nvim .
+cargo pgo optimize bench
+nvim .
+clear
+cargo pgo optimize bench
+:x
+clear
+nvim .
+clear
+cargo pgo optimize bench
+clear
+nvim .\
+nvim .
+c;ear
+clear
+cargo pgo optimize bench
+clear
+nvim .
+cargo pgo optimize bench
+clear
+nvim .
+cargo pgo optimize bench
+nvim .
+clear
+cargo pgo optimize bench
+nvim .
+cargo pgo optimize bench
+nvim .
+cargo pgo optimize bench
+nvim .
+cargo pgo optimize bench
+nvim .
+clear
+git add .
+clear
+cd .config/wallpapers
+clear
+Thunar 
+thunar
+clear
+clear
+ls
+cd ..
+clear
+ls
+cd hypr
+clear
+sl
+ls
+celar
+clear
+ls
+nvim hyprpaper.conf
+hyprpaper
+claer
+clear
+killall hyprpaper<\n>
+hyprpaper
+claer
+clear
+hyprpaper &<\n>
+hyprpaper --config<\n>
+hyprpaper --config hyprpaper.conf
+clear
+hyprlock
+clear
+nvim hyprlock.conf
+hyprlock
+nvim hyprlock.conf
+hyprlock
+clear
+cd kitty
+mkdir kitty
+clear
+ls
+rmdir kitty
+clear
+cd ..
+mkdir kitty
+cd kitty
+claer
+touch kitty.conf
+clear
+nvim .
+clear
+fastfetch
+clear
+kitty
+clear
+yay -S hyprsunset
+hyprsunset
+claer
+cd ..
+clear
+cd hypr
+clear
+ls
+nvim hyprland.conf
+hypridle
+clear
+yay -S hypridle
+hypridle
+hypridle -help
+tldr hypridle
+clear
+idle
+clear
+idle
+clear
+waybar
+clear
+cd ..
+clear
+ls
+cd waybar
+c;ear
+clear
+touch config.jsonc
+ls
+touch modules.json
+touch style.css
+nvim .
+clear
+waybar
+clear
+cd .config/hypr
+clear
+ls
+nvim .
+hyprctl reload
+reboot
+fastfetch
+cd .config/fastfetch 
+clear
+ls
+mkdir pngs
+thunar
+clear
+nvim .
+fastfetch
+clear
+fastfetch
+clear
+fastfetch
+clear
+fastfetch
+clear
+fastfetch
+clear
+pipes.sh
+pacman -S pipes.sh
+sudo pacman -S pipes.sh
+sudo pacman -S cbonsai
+yay -S cbonsai
+clear
+cbonsai
+clear
+cbonsai
+clear
+sudo pacman -S scrot<\n>
+clear
+scroot
+scrot
+tldr srot
+tldr scrot
+scrot --count --delay 10
+clear
+sudo pacman -S flameshot<\n>
+flameshot gui
+sudo pacman -R flameshot<\n>
+sudo pacman -R scrot<\n>
+ckear
+clear
+cbonsai
+grim -g
+clear
+grim -g "$(slurp)" screenshot.png
+grim -g "$(slurp)" screenshot.pngckear
+c;ear
+clear
+grim - | wl-copy
+clear
+fastfetch
+nitch
+clear
+nitch
+fastfetch
+clear
+nitch
+clear
+nitch
+nvim .
+cbonsai
+nitch
+nvim
+clear
+grim - | wl-copy<\n>
+clear
+grim - | wl-copy<\n>
+curl -f https://zed.dev/install.sh | sh<\n>
+zed
+clear
+cd IMAP
+clear
+git commit -m "Optimizations"
+git push --force
+clear
+ghostty
+sudo pacman -S mise
+yay -S Mise
+clear
+sudo pacman -S helix
+h
+clear
+hx
+clear
+helix
+clear
+hyfetch
+c;ear
+clear
+fastfetch
+clear
+cd .config/fastfetch
+ls
+cd ..
+clear
+ls
+cd fastfetch
+ls
+clear
+ls
+thunar
+clear
+fastfetch
+clear
+cd ..
+clear
+git clone https://github.com/cassiofb-dev/fastfetch-config fastfetch
+fastfetch
+clear
+ls
+cd fastfetch
+ls
+nvim .
+clear
+fastfetch --config dragonball
+fastfetc --config
+clear
+fastfetch --config
+fastfetch --config xiangling<\n>
+clear
+ls
+cd presets
+ls
+examples
+clear
+nvim .
+fastfetch
+fastfetch --config
+fastfetch --config help
+fastfetch --config dragonball
+clear
+fastfetch --config cobra
+cd presets
+cd .config/fastfetch/presets
+clear
+ls
+fastfetch
+fastfetch --config cobra
+fastfetch --config
+fastfetch --help
+tldr fastfetch
+fastfetch --load-config ./cobra.jsonc
+fastfetch --load-config ./dragonball.jsonc
+cd .
+cd ..
+;s
+ls
+fastfetch
+fastfetch --logo logos/fufu.png
+rm -rf .
+cd ..
+clear
+ls
+cd fastfetch
+ls
+cd ..
+rm -rf fastfetch
+cd fastfetcg
+cd fastfetch
+mkdir fastfetcg
+mkdir fastfetch
+rmdir fastfetcg
+clear
+;s
+cd fastfetch
+thunar
+clear
+ls
+fastfetch
+fastfetch --logo pngs/mirin.png
+cd pngs
+ls
+tldr fastfetch
+fastfetch strucutre
+fastfetch structure
+fastfetch -structure
+fastfetch -=structure
+fastfetch --structure
+clear
+fastfetch --structure jo
+fastfetch --structure f
+clear
+fastfetcj
+clear
+fk
+fastfvec
+fk
+clear
+fastfetch
+sudo pacman -Syu
+clear
+hyprlock
+clear
+hyprsunset
+clear
+fastfetch
+clear
+zed
+clear
+ckear
+clear
+fastfetch
+cd .config/ghostty
+cklear
+clear
+ls
+fastfetcj
+fastfetch
+clear
+fastfetch
+clear
+nvim .
+cd .config/fastfetch
+clear
+ls
+fastfetcg --kitty=pngs/mirin.png
+fastfetch --kitty=pngs/mirin.png
+fastfetch --config --kitty=pngs/mirin.png
+clear
+fastfetch --config --kitty= pngs/mirin.png
+fastfetch --config --kitty= ./pngs/mirin.png
+fastfetch --kitty=pngs/mirin.png
+c;ear
+clear
+fastfetch -h
+tldr fastfetch
+clear
+fastfetch -h
+fastfetch -l --kitty=pngs/mirin.png
+fastfetch --logo-type kitty --logo <path>
+fastfetch --logo-type kitty --logo /pngs/mirin.png
+fastfetch --logo-type kitty --logo /pngs/mirin.ng
+clear
+nvin
+ckear
+cl
+fastfetch
+clear
+fastfetch\
+clear
+fastfetch
+clear
+fastfetch
+fastfetch\
+fastfetch
+clear
+fastfetch
+nitch
+ghostty --version
+zig
+clear
+ghostty --version
+fastfetch
+clear
+touch test.txt
+nvim .
+clera
+clear
+thunar
+clear
+ls
+cd ..
+rmdir fastfetch
+clear
+ls
+cd fastfetch
+clear
+git clone https://github.com/cassiofb-dev/fastfetch-config fastfetch
+clear
+fastfetch
+clear
+cd fastfetch
+ls
+cd presets
+clear
+ls
+fastfetch --list-config-paths
+fastfetch --list-data-paths
+fastfetch --list-logos
+clear
+fastfetch
+fastfetch --config linus
+clear
+fastfetch --config ganyu
+clear
+fastfetch
+fastfetch --load-config examples/2.jsonc
+fastfetch
+fastfetch --load-config examples/2.jsonc
+clear
+fastfetch --load-config examples/3.jsonc
+fastfetch --load-config examples/4.jsonc
+fastfetch --load-config examples/5.jsonc
+fastfetch --load-config examples/6.jsonc
+fastfetch --load-config examples/4.jsonc
+fastfetch --load-config examples/6.jsonc
+fastfetch --load-config examples/7.jsonc
+fastfetch --load-config examples/8.jsonc
+fastfetch --load-config examples/9.jsonc
+fastfetch --load-config examples/10.jsonc
+fastfetch --load-config examples/11.jsonc
+clear
+fastfetch --load-config examples/11.jsonc
+cd .config/fastfetch
+ls
+rm -rf
+cd ..
+clear
+rm -rf fastfetch
+clear
+ls
+cd fastfetch
+clear
+mkdir fastfetch
+clear
+cd fastfetch
+ckear
+clear
+touch small.jsonc
+touch big.jsonc
+touch config.jsonc
+fastfetch
+clear
+nvim test.txt
+cd .config/fastfetch/
+clear
+ls
+nvim .
+clear
+fastfetch
+clear
+fastfetch
+claer
+cls
+cl
+fastfetch
+ls
+rm big.jsonc
+rm small.jsonc
+clear
+fastfetch
+clear
+nvim .
+clear
+cd ..c
+ckear
+cd ..
+ckear
+clear
+cd ..
+clear
+ls
+cd Github
+ckear
+clear
+yay -S gleam
+clear
+gleam
+clear
+sudo pacman -S node
+yay S node
+clear
+yay S node
+clear
+pacman -S erlang<\n>
+clear
+sudo pacman -S erlang<\n>
+clear
+cd IMAP
+claer
+clear
+nvim 
+cd .config/nvim/
+cklear
+kls
+ks
+clear
+ls
+cd lua
+nvim .
+clear
+nvim
+clear
+cd .config/nvim/
+clear
+nvim .
+clear
+nvim .
+clear
+nvim
+clear
+git add .
+git commit -m "stuff"
+clear
+git push origin main --force
+git push main --force
+claewr
+clear
+gleam
+gleam lsp
+clear
+cd ..
+ckear
+cd ..
+clear
+cd Github
+ls
+clear
+mkdir todo
+ls
+rmdir todo
+clear
+ls
+touch todo.txt
+clear
+ls
+cargo new rtodo
+clear
+ls
+cd rtodo
+clear
+nvim
+c;ear
+clear
+git init
+clear
+ls
+clear
+ls
+git init
+ls
+git add .
+clear
+nvim .
+ls
+cd src
+clear
+ls
+touch todo.rs
+clear
+cd ..
+clear
+ls
+nvim .
+cd src
+ls
+rm todo.rs
+clear
+cd ..
+clear
+git add ,
+git add .
+clear
+nvim .
+cargo run
+clear
+git add .
+clear
+cargo run
+clear
+cargo run -- --add "your todo item"
+clear
+ls
+bat todo.txt
+clear
+cargo run -- --add "your todo item"
+bat todo.txt
+clear
+rm todo.txt
+clear
+ls
+clear
+git add .
+clear
+cargo install --path .
+rtodo
+clear
+rtodo --add "new task"
+which rtodo
+nvim .
+clear
+nvim .
+clear
+cargo build --release
+clear
+ls
+sudo cp target/release/rtodo /usr/local/bin/
+clear
+rtodo
+clear
+rtodo --add "new task"
+ls
+clear
+about rtodo
+clear
+rtodo about
+rtodo --help
+clear
+git add .
+clear
+cargo build --release
+git add .
+nvim .
+cargo build --release
+clear
+sudo cp target/release/rtodo /usr/local/bin/
+clear
+rtodo --help
+rtodo --show
+clear
+ls
+rm todo.txt
+clear
+cd ~
+ckear
+clear
+rtodo
+rtodo --show
+clear
+rtodo --help
+rtodo --add " Rust - IMAP"
+rtodo --add " Nim - NimLines"
+clear
+rtodo --show
+clear
+rtodo --add " Rust - Rafka"
+rtodo --add " Python - Web Scraper (Scalable)"
+clear
+ls
+clear
+rtodo
+rtodo -h
+rtodo --completed
+rtodo --completed "h"
+rtodo --completed " R"
+clear
+grim screenshot.png
+clear
+ls
+screenshot.pbg
+screenshot.png
+clear
+oe e====
+clear
+cd Github
+clear
+ls
+cd IMAP
+clear
+l
+clear
+rustc set stable
+clear
+rustup set stable
+clear
+cargo run
+c
+clear 
+cargo test
+clearclear
+clear
+gtk
+clear
+gtk -v
+gtk --version
+clear
+sudo pacman -S gtk3 gtk4<\n>
+clear
+cd .config/
+clear
+ls
+clear
+cd gtk-3.0
+clear
+ls
+touch settings.ini
+clear
+ls
+cd ..
+clear
+ks
+ckaer
+ls
+gtk -v
+clear
+gtk
+cd fastfetcg
+cd fastfetch
+clear
+ls
+rm c
+clear
+ls
+nvim .
+clear
+thunar
+ckear
+clear
+fastfetch
+yay -S tokyo-night-gtk-theme<\n>
+yay S tokyo night
+clear
+yay -h
+yay -l
+clear
+yay -h
+yay -f
+yay --files
+yay -Files
+clear
+ls
+nitch
+nitch help
+nitch -h
+clear
+tldr nitch
+yay
+clear
+pacman -S chezmoi<\n>
+sudo pacman -S chezmoi<\n>
+clear
+chezmoi
+chezmoi init
+cd .config
+clear
+ls
+cd ..
+ks
+ls
+clear
+ls
+cd ..
+ls
+cd chezmoi
+ckear
+c;ear
+clear
+cd ~
+clear
+cd .config
+clear
+ls
+cd obsidian
+ls
+cd ..
+clear
+ls
+cd rofi.wyattgill
+ls
+cd ..
+rm -rf rofi.wyattgill
+clear
+ls
+clear
+ls
+chezmoi htop
+chezmoi ~/.config/hypr
+clear
+chezmoi add ~/.config/hypr
+ls
+chezmoi add ~/.config/tmux
+chezmoi add ~/.config/ghostty
+chezmoi add ~/.config/nushell
+chezmoi add ~/.config/wallpapers
+cd xfce4
+ls
+cd xfconf
+clear
+ls
+cd ..
+clear
+ls
+cd ..
+clear
+ls
+chezmoi add ~/.config/thefuck
+chezmoi add ~/.config/starship.toml
+rm starship.toml\
+ls
+clear
+ls
+chezmoi add ~/.config/nvim
+chezmoi add ~/.config/kitty
+chezmoi add ~/.config/btop
+chezmoi add ~/.config/hyprpanel
+chezmoi add ~/.config/cava
+clear
+ls
+cd dot_config
+ls
+clear
+chezmoi -v apply
+clear
+chezmoi -v apply
+clear
+chezmoi apply
+clear
+ls
+cd nushell
+ls
+rm history.txt
+clear
+ls
+claer
+cd ..
+claer
+clear
+ls
+chezmoi -v apply
+clear
+git add .
+git commit -m "Initial Arch-Config"
+git remote add origin git@github.com:$wyattgill9/dotfiles.git<\n>
+git branch -M main
+clear
+git push -u origin main
+clear
+git status
+clear
+thunar
+caer
+chezmoi cd
+clear
+ls
+git add .
+clear
+ls
+git commit -m "fix"
+clear
+git remote add origin https://github.com/wyattgill9/dotfiles.git
+git remote remove origin
+git remote add origin https://github.com/wyattgill9/dotfiles.git
+clear
+git branch
+clear
+ls
+git branch
+git branch -M main
+clear
+git push 
+cd secretes
+cd secrets
+claer
+cd Github
+clear
+l;s
+clear
+ls
+cd secrets
+ls
+git push --set-upstream origin main
+git fetch
+git pull
+ls
+git pull(1)
+clear
+git pull 
+git pull https://github.com/wyattgill9/dotfiles.git main
+git config pull.rebase false
+git pull https://github.com/wyattgill9/dotfiles.git main
+clear
+ls
+cd ..
+ckear
+clear
+cd chezmoi
+cear
+clear
+rm -rf
+clear
+rm -rf ./
+rm -rf .
+ls
+cd ..
+clear
+rn -rf ./chezmoi
+rm -rf ./chezmoi
+clear
+cd chezmoi
+ckear
+clear
+sudo pacman -R chezmoi
+clear
+cd ~
+ckear
+clear
+ls
+cd Githu
+clear
+cd Github
+clkeart
+clear
+git clone https://github.com/wyattgill9/dotfiles.git
+clear
+cd dotfiles
+ls
+cd arch-conf
+clear
+ls
+clear
+cd .config
+ckear
+clear
+ls
+nvim setup.sh
+htop
+btop
+rm -rf ./chezmoi
+clear
+ls
+clear
+cp -r ~/.config/hypr ~/.config/hyprland ~/.config/hyprpanel ~/.config/thefuck ~/.config/nushell ~/.config/fastfetch ~/.config/ghostty ~/.config/wallpapers ~/.config/kitty ~/.config/tmux ~/.config/rofi ~/.config/nvim ~/.config/btop ~/.config/cava .<\n>
