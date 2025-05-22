@@ -106,10 +106,11 @@
     gvfs
 
     # Misc GUI
-    ghostty google-chrome spotify discord vesktop adwaita-icon-theme
+    ghostty google-chrome spotify 
+    vesktop adwaita-icon-theme
 
     # Version control & helpers
-    gh unzip btop
+    unzip btop
   ];
 
   # System state version

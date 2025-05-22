@@ -29,7 +29,9 @@
     fastfetch
     thefuck
     zoxide
-    yazi 
+    yazi
+    starship
+    gh
   ];
 
   systemd.user.startServices = "sd-switch";
