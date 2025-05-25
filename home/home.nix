@@ -2,6 +2,7 @@
 {
   imports = [
     ./terminal/default.nix
+    ./browser/default.nix
   ];
 
   nixpkgs.config.allowUnfree = true;

@@ -7,9 +7,10 @@
       url = "github:nix-community/home-manager/master";
       inputs.nixpkgs.follows = "nixpkgs";
     };
+    zen-browser.url = "github:0xc000022070/zen-browser-flake";
   };
 
-  outputs = { self, nixpkgs, home-manager, ... }@inputs:
+  outputs = { self, nixpkgs, home-manager, zen-browser, ... }@inputs:
     let
       system = "x86_64-linux";
 
@@ -53,6 +54,5 @@
         modules = [ ./home/home.nix ];
       };
     };
-
   };
 }
