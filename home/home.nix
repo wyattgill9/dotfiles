@@ -1,6 +1,8 @@
 { config, pkgs, ... }:
 
 {
+  nixpkgs.config.allowUnfree = true;
+
   home.username = "wyattgill";
   home.homeDirectory = "/home/wyattgill";
   home.stateVersion = "25.11";
@@ -80,6 +82,8 @@
     starship
     jujutsu 
     fzf
+  
+    zoom-us
   ];
 
   systemd.user.startServices = "sd-switch";
