@@ -45,13 +45,13 @@
       "wyattgill@zen" = home-manager.lib.homeManagerConfiguration {
         pkgs = nixpkgs.legacyPackages.x86_64-linux;
         extraSpecialArgs = { inherit inputs self; };
-        modules = [ ./home/home.nix ];
+        modules = [ ./modules/home/home.nix ];
       };
 
       "wyattgill@ryu" = home-manager.lib.homeManagerConfiguration {
         pkgs = nixpkgs.legacyPackages.x86_64-linux;
         extraSpecialArgs = { inherit inputs self; };
-        modules = [ ./home/home.nix ];
+        modules = [ ./modules/home/home.nix ];
       };
     };
   };

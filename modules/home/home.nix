@@ -3,6 +3,7 @@
   imports = [
     ./terminal/default.nix
     ./browser/default.nix
+    ./games/default.nix
   ];
 
   nixpkgs.config.allowUnfree = true;
