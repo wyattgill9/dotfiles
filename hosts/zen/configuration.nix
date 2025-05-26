@@ -35,13 +35,6 @@
     shell = pkgs.zsh;
   };
 
-  # Home Manager integration
-  home-manager = {
-    extraSpecialArgs = { inherit inputs; };
-    users.wyattgill = import ../../home/home.nix;
-    backupFileExtension = "backup";
-  };
-
   # Enable X11 and SDDM for Wayland login
   services.xserver.enable = true;
   services.displayManager.sddm.enable = true;

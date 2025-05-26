@@ -6,5 +6,6 @@
     ./zsh.nix
     ./cava.nix
     ./pkgs.nix
+    ./nitch.nix
   ];
 }
