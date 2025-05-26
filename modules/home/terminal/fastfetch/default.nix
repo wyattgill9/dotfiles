@@ -12,6 +12,7 @@
         height = 18;
         padding = {
           top = 2;
+          left = 3;
         };
       };
       modules = [
