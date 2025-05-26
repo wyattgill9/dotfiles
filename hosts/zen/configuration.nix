@@ -53,7 +53,7 @@
   services.printing.enable = true;
 
   # Flatpak & Portals
-  services.flatpak.enable = true;
+  # services.flatpak.enable = true;
   xdg.portal = {
     enable = true;
     extraPortals = [ pkgs.xdg-desktop-portal-gtk ];
