@@ -2,20 +2,20 @@
 {
   programs.zsh = {
     enable = true;
-    enableAutosuggestions = true;
+    autosuggestion.enable = true;
     initContent = ''
       eval "$(starship init zsh)"
       eval "$(zoxide init zsh)"
-
-      alias cd="z"
 
       autoload -U compinit
       compinit
       source <(jj util completion zsh)
     '';
-  };
 
-  programs.starship = {
-    enable = true;
+    shellAliases = {
+       cd = "z";
+       c = "clear";
+       cat = "bat"; 
+    };
   };
 }

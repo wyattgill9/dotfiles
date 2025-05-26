@@ -106,7 +106,7 @@
     vesktop adwaita-icon-theme
 
     # Version control & helpers
-    unzip btop
+    unzip
   ];
 
   # System state version
