@@ -4,6 +4,7 @@
     ./terminal/default.nix
     ./browser/default.nix
     ./games/default.nix
+    ./app/default.nix
   ];
 
   nixpkgs.config.allowUnfree = true;

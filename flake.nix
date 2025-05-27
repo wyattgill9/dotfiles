@@ -28,7 +28,7 @@
       # Zen (desktop)
       zen = nixpkgs.lib.nixosSystem {
         specialArgs = { inherit inputs system; }; 
-        modules = [ 
+        modules = [
             ./hosts/zen/configuration.nix 
         ];
       };
