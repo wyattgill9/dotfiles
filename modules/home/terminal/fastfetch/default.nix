@@ -7,7 +7,7 @@
       };
       logo = {
         type = "kitty";
-        source = ./pngs/nixos.png;
+        source = ./pngs/mirin.png;
         width = 35;
         height = 18;
         padding = {
