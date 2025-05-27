@@ -3,7 +3,7 @@
     enable = true;
     settings = {
       display = {
-        separator = "• ";
+        separator = "- ";
       };
       logo = {
         type = "kitty";
@@ -21,13 +21,8 @@
           format = "┌──────────────────────────────────────────┐";
         }
         {
-          type = "chassis";
-          key = " 󰇺 Machine";
-          format = "{3}";
-        }
-        {
           type = "os";
-          key = "  󰣇 OS";
+          key = "  OS";
           format = "{2}";
           keyColor = "red";
         }
@@ -110,11 +105,6 @@
         {
           type = "custom";
           format = "└──────────────────────────────────────────┘";
-        }
-        {
-          type = "colors";
-          paddingLeft = 2;
-          symbol = "circle";
         }
         "break"
       ];
