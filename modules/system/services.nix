@@ -3,11 +3,10 @@
 {
    services = {
       printing.enable = true;
-      
-      displayManager.sddm.enable = true; 
-      xserver = {
+
+      displayManager.sddm = {
          enable = true;
-         # extraPortals = [ pkgs.xdg-desktop-portal-gtk ];
+         wayland.enable = true;
       };
    };
    systemd.extraConfig = "DefaultTimeoutStopSec=10s";

@@ -6,7 +6,8 @@
     yazi
     jujutsu 
     fzf
-  
+    cmatrix
+    tldr
     zoom-us
   ];
 }

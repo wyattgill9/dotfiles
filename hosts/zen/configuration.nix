@@ -88,7 +88,7 @@
     neovim gcc clang gnumake rustc cargo
 
     grim dunst libnotify wl-clipboard
-    waybar rofi hyprpaper hyprlock hyprsunset hyprland
+    waybar rofi-wayland hyprpaper hyprlock hyprsunset hyprland
 
     xfce.thunar
     xfce.thunar-archive-plugin
