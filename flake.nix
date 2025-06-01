@@ -29,7 +29,7 @@
     {
 
     nixosConfigurations = {
-      # Zen (desktop)
+      # Zen (Desktop)
       zen = nixpkgs.lib.nixosSystem {
         specialArgs = { inherit inputs system; }; 
         modules = [
