@@ -6,7 +6,7 @@
     ./programs.nix
     ./steam.nix 
     ./bootloader.nix
-    ./system.nix
+    ./locale.nix
     ./hardware.nix
     ./network.nix
     ./services.nix 

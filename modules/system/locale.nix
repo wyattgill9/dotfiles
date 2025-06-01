@@ -12,12 +12,15 @@
     inputMethod = {
       enable = true;
       type = "fcitx5";
-      fcitx5.addons = with pkgs; [
-        rime-data
-        fcitx5-rime
-        fcitx5-gtk
-      ];
-    };
+      fcitx5 = {
+        waylandFrontend = true;
+        addons = with pkgs; [
+          fcitx5-gtk
+          fcitx5-chinese-addons
+          fcitx5-nord      
+        ];
+      };
+    }; 
     extraLocaleSettings = {
       LC_ALL = "en_US.UTF-8";
     };
@@ -25,7 +28,11 @@
 
   fonts = {
     enableDefaultPackages = true;
-    packages = with pkgs; [ nerd-fonts._0xproto ];
+    packages = with pkgs; [ 
+      nerd-fonts._0xproto 
+      noto-fonts
+    ];
+
     fontconfig.enable = true;
   };
 }

@@ -5,6 +5,7 @@
     ./browser/default.nix
     ./games/default.nix
     ./app/default.nix
+    ./var.nix
   ];
 
   nixpkgs.config.allowUnfree = true;

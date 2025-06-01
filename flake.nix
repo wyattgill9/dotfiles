@@ -36,23 +36,10 @@
             ./hosts/zen/configuration.nix 
         ];
       };
-
-      ryu = nixpkgs.lib.nixosSystem {
-        specialArgs = { inherit system; };
-        modules = [ 
-            ./hosts/ryu/configuration.nix 
-        ];
-      };
     };
 
     homeConfigurations = {
       "wyattgill@zen" = home-manager.lib.homeManagerConfiguration {
-        pkgs = nixpkgs.legacyPackages.x86_64-linux;
-        extraSpecialArgs = { inherit inputs self; };
-        modules = [ ./modules/home/home.nix ];
-      };
-
-      "wyattgill@ryu" = home-manager.lib.homeManagerConfiguration {
         pkgs = nixpkgs.legacyPackages.x86_64-linux;
         extraSpecialArgs = { inherit inputs self; };
         modules = [ ./modules/home/home.nix ];
