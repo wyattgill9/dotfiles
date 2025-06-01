@@ -9,5 +9,16 @@
     cmatrix
     tldr
     zoom-us
+
+    clang gnumake
+
+    neovim
+
+    xfce.thunar
+    xfce.thunar-archive-plugin
+    xfce.thunar-volman         
+    xfce.tumbler                
+    google-chrome                
+    spotify                       
   ];
 }

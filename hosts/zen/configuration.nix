@@ -18,21 +18,21 @@
 
   environment.systemPackages = with pkgs; [
     home-manager
+    zsh
 
-    zsh nushell tmux wget
-
-    neovim gcc clang gnumake rustc cargo
-
-    grim dunst libnotify wl-clipboard
-    waybar rofi-wayland hyprpaper hyprlock hyprsunset hyprland
+    grim 
+    dunst 
+    libnotify 
+    wl-clipboard
+   
+    waybar 
+    rofi-wayland 
     
-    xfce.thunar
-    xfce.thunar-archive-plugin
-    xfce.thunar-volman
-    xfce.tumbler
-    gvfs
-
-    google-chrome spotify 
+    hyprpaper 
+    hyprlock 
+    hyprsunset 
+    hyprland
+    
     adwaita-icon-theme
     ghostty
 

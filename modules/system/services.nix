@@ -9,5 +9,6 @@
          wayland.enable = true;
       };
    };
+
    systemd.extraConfig = "DefaultTimeoutStopSec=10s";
 }
