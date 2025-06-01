@@ -13,5 +13,7 @@
     ./fastfetch/default.nix
     ./bat.nix
     ./gh.nix
+    ./tmux.nix
+    ./zed.nix
   ];
 }
