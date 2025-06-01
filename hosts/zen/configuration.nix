@@ -25,7 +25,7 @@
 
     grim dunst libnotify wl-clipboard
     waybar rofi-wayland hyprpaper hyprlock hyprsunset hyprland
-
+    
     xfce.thunar
     xfce.thunar-archive-plugin
     xfce.thunar-volman
