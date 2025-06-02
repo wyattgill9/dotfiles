@@ -2,7 +2,7 @@
 
 {
   networking = {
-    hostName = "nixos"; 
+    hostName = "zen"; 
     networkmanager.enable = true;
   };
 
