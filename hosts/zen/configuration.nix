@@ -19,6 +19,7 @@
   environment.systemPackages = with pkgs; [
     home-manager
     zsh
+    cargo 
 
     grim 
     dunst 
