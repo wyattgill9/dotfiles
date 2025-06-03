@@ -2,5 +2,6 @@
 {
   imports = [
     ./discord.nix
+    ./email.nix 
   ];
 }
