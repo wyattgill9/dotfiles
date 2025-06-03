@@ -3,7 +3,7 @@
 {
   services = {
     printing.enable = true;
-
+   
     displayManager.sddm = {
       enable = true;
       wayland.enable = true;

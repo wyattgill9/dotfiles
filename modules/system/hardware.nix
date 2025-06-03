@@ -7,14 +7,14 @@ in
   hardware = {
     graphics = {
       enable = true;
-      package = hyprland-pkgs.mesa;
+      package = pkgs.mesa;
       extraPackages = with pkgs; [
-        intel-media-driver
-        (vaapiIntel.override { enableHybridCodec = true; })
-        vaapiVdpau
         libvdpau-va-gl
+        vaapiVdpau
+        mesa.opencl
       ];
     };
+    opengl.enable = true; 
   };
-  hardware.enableRedistributableFirmware = true;
 }
+
