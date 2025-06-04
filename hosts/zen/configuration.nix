@@ -30,8 +30,8 @@
     rofi-wayland 
     
     # hyprpaper 
-    hyprlock 
-    hyprsunset 
+    # hyprlock 
+    # hyprsunset 
     # hyprland
     
     adwaita-icon-theme

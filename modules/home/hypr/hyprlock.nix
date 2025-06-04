@@ -49,7 +49,7 @@
       label {
           monitor =
           #clock
-          text = cmd[update:1000] echo "$TIME"
+          text = cmd[update:1000] echo \"$TIME\"
           color = rgb(c8c8c8)
           font_size = 90
           font_family = Fira Semibold
