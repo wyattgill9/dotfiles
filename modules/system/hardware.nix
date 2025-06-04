@@ -14,7 +14,5 @@ in
         mesa.opencl
       ];
     };
-    opengl.enable = true; 
   };
 }
-

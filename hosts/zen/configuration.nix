@@ -29,10 +29,10 @@
     waybar 
     rofi-wayland 
     
-    hyprpaper 
+    # hyprpaper 
     hyprlock 
     hyprsunset 
-    hyprland
+    # hyprland
     
     adwaita-icon-theme
     ghostty

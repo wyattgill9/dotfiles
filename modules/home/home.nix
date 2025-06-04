@@ -6,6 +6,7 @@
     ./games/default.nix
     ./app/default.nix
     ./var.nix
+    ./hypr/default.nix 
   ];
 
   nixpkgs.config.allowUnfree = true;
