@@ -1,7 +1,8 @@
 # Dotfiles ✨ - [nvim specific](https://github.com/wyattgill9/nvim)
 Personal configs for both my **NixOS** Desktop and **MacOS** Laptop.  
 ---
-![rice](https://github.com/user-attachments/assets/11da9964-abb3-4ce2-947c-97df762cf48f)
+
+![rice](https://github.com/user-attachments/assets/0aac8570-2647-4143-a2b1-4835862e8db4)
 
 ## Configurations:  
 | **Component**         | **NixOS**                       | **MacOS - M4**              |  
