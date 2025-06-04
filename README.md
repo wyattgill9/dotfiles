@@ -1,7 +1,5 @@
 # Dotfiles ✨ - [nvim specific](https://github.com/wyattgill9/nvim)
-A collection of my personal **PRODUCTIVE** and **FUN** configurations for both my **Arch** Desktop and **MacOS** Laptop.  
-Feel free to explore, take inspiration, or change parts of these files to your own setup!  
-
+Personal configs for both my **NixOS** Desktop and **MacOS** Laptop.  
 ---
 ![rice](https://github.com/user-attachments/assets/11da9964-abb3-4ce2-947c-97df762cf48f)
 
@@ -13,16 +11,16 @@ Feel free to explore, take inspiration, or change parts of these files to your o
 | **Kernel**             | Zen                            | Darwin                     | 
 | **Shell**              | Nushell                        | Zsh                        |  
 | **Prompt**             | Starship                       | Starship                    |  
-| **Editor**             | Neovim                         | Neovim           |  
-| **Launcher**           | Rofi                           | Raycast or Spotlight          |  
+| **Editor**             | Neovim                         | Same           |  
+| **Launcher**           | Rofi                           | Raycast          |  
 | **Bar**                | Hyprpanel                      | Simple-Bar                    |  
-| **Terminal Emulator**  | Ghostty                        | Ghostty                     |  
-| **Package Manager**    | Pacman, AUR (Yay), Flatpak     | Homebrew                       |  
-| **Fonts**              | Nerd Font 0xProto              | Nerd Font 0xProto           |  
-| **Browser**            | Zen Browser + Mtab + Vimium   | Arch Browser + Vimium          |  
-| **Theme**              | Tokyo Night                    | Tokyo Night                 |  
-| **Fetch**              | Fastfetch + Nitch              | Fastfetch                    |
-| **File Manager**       | Yazi + Thunar + Oil.nvim      | Yazi + Oil.nvim + finder               |
+| **Terminal Emulator**  | Ghostty                        | Same                     |  
+| **Package Manager**    | Nixpkgs, Flatpak     | Homebrew                       |  
+| **Fonts**              | Nerd Font 0xProto              | Same           |  
+| **Browser**            | Zen Browser + Mtab + Vimium   | Same          |  
+| **Theme**              | Tokyo Night                    | Same                 |  
+| **Fetch**              | Fastfetch + Nitch              | Same                    |
+| **File Manager**       | Yazi + Thunar + Oil.nvim      | Same               |
 
 ---
 
