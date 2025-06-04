@@ -2,7 +2,7 @@
 {
   services.hyprpaper = {
     enable = true;
-    setting = {
+    settings = {
       ipc = "on";
       splash = "false";
       preload = [
