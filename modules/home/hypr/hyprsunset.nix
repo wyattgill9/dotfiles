@@ -1,7 +1,7 @@
 {pkgs, lib, ...}:
 {
   services.hyprsunset = {
-    enable = true;
+    enable = false;
     transitions = {
       sunrise = {
         calendar = "*-*-* 06:00:00";
@@ -14,7 +14,7 @@
       sunset = {
         calendar = "*-*-* 19:00:00";
         requests = [
-          [ "temperature" "5000" ]
+          [ "temperature" "5500" ]
         ];
       }; 
     };
