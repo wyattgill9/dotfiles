@@ -63,7 +63,7 @@
       $mainMod = SUPER
 
       bind = $mainMod SHIFT, Z, exec, rofi -show drun -theme ~/.config/rofi/config1.rasi
-      bind = $mainMod SHIFT, S, exec, grim - | tee ~/Pictures/Screenshots/Screenshot-$(date +%F_%H-%M-%S).png
+      bind = $mainMod SHIFT, A, exec, grim - | tee ~/Pictures/Screenshots/Screenshot-$(date +%F_%H-%M-%S).png
 
       bind = $mainMod, Q, exec, $terminal
       bind = $mainMod, C, killactive,
