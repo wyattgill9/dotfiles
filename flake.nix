@@ -12,9 +12,10 @@
       url = "github:hyprwm/hyprland";
       inputs.nixpkgs.follows = "nixpkgs";
     };
+    spicetify-nix.url = "github:Gerg-L/spicetify-nix/24.11"; 
   };
 
-  outputs = { self, nixpkgs, home-manager, zen-browser, hyprland, ... }@inputs:
+  outputs = { self, nixpkgs, home-manager, zen-browser, hyprland, spicetify-nix, ... }@inputs:
     let
       system = "x86_64-linux";
 
@@ -42,7 +43,10 @@
       "wyattgill@zen" = home-manager.lib.homeManagerConfiguration {
         pkgs = nixpkgs.legacyPackages.x86_64-linux;
         extraSpecialArgs = { inherit inputs self; };
-        modules = [ ./modules/home/home.nix ];
+        modules = [ 
+            ./modules/home/home.nix 
+            inputs.spicetify-nix.homeManagerModules.spicetify 
+        ];
       };
     };
   };

@@ -18,6 +18,8 @@
     xfce.thunar-volman         
     xfce.tumbler                
     google-chrome                
-    spotify                       
+    
+    # SDL 
+    SDL2 
   ];
 }
