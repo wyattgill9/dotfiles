@@ -1,62 +1,44 @@
-# Dotfiles ✨ - [nvim specific](https://github.com/wyattgill9/nvim)
-Personal configs for both my **NixOS** Desktop and **MacOS** Laptop.  
+# Dotfiles ✨ 
 ---
 
-![rice](https://github.com/user-attachments/assets/0aac8570-2647-4143-a2b1-4835862e8db4)
+![rice](https://github.com/user-attachments/assets/173b09b3-0b66-4b6a-8f51-97cddd823f77)
+![setup](https://github.com/user-attachments/assets/22831a22-0a8f-48e2-9719-2f974b93e454)
+
+### [Neovim Config](https://github.com/wyattgill9/nvim) 
 
 ## Configurations:  
-| **Component**         | **NixOS**                       | **MacOS - M4**              |  
-|------------------------|----------------------------------|-----------------------------|  
-| **Window Manager**     | Hyprland                       | AeroSpace                    |  
-| **Compositor**         | Wayland                        | Built-in (Quartz)              |  
-| **Kernel**             | Zen                            | Darwin                     | 
-| **Shell**              | Nushell                        | Zsh                        |  
-| **Prompt**             | Starship                       | Starship                    |  
-| **Editor**             | Neovim                         | Same           |  
-| **Launcher**           | Rofi                           | Raycast          |  
-| **Bar**                | Hyprpanel                      | Simple-Bar                    |  
-| **Terminal Emulator**  | Ghostty                        | Same                     |  
-| **Package Manager**    | Nixpkgs, Flatpak     | Homebrew                       |  
-| **Fonts**              | Nerd Font 0xProto              | Same           |  
-| **Browser**            | Zen Browser + Mtab + Vimium   | Same          |  
-| **Theme**              | Tokyo Night                    | Same                 |  
-| **Fetch**              | Fastfetch + Nitch              | Same                    |
-| **File Manager**       | Yazi + Thunar + Oil.nvim      | Same               |
+| **Component**         | **NixOS/MacOS**                 | 
+|------------------------|--------------------------------|
+| **Window Manager**     | Hyprland / AeroSpace           | 
+| **Compositor**         | Wayland / Quartz               | 
+| **Kernel**             | Zen / Darawin                  |
+| **Shell**              | Zsh                            |
+| **Prompt**             | Starship                       | 
+| **Editor**             | Neovim                         |
+| **Launcher**           | Rofi / Raycast                 |
+| **Bar**                | Hyprpanel                      |
+| **Package Manager**    | Nixpkgs / Homebrew             |
+| **Terminal Emulator**  | Ghostty                        | 
+| **Font**               | 0xProto Nerd Font              |
+| **Browser**            | Zen Browser + Vimium           | 
+| **Theme**              | Tokyo Night                    |
+| **Fetch**              | Fastfetch                      |
+| **File Manager**       | Thunar + Yazi                  |
 
 ---
 
-## Useful CLI Tools
-
-| Tool        | Description                                |
-|-------------|--------------------------------------------|
-| `ripgrep`   | Fast, recursive search utility for code and text. |
-| `fzf`       | Fuzzy finder for files and other data.     |
-| `bat`       | Cat alternative with syntax highlighting.  |
-| `starship`  | Cross-shell prompt for minimalists.        | 
-| `dust`      | Alternative to `du` for disk usage.        |
-| `tldr`      | Simplified man pages.                      |
-| `zoxide`    | Smarter `cd` command.                      |
-
----
-
-[**COMPUTER SPECS**](https://pcpartpicker.com/list/ygQKGJ)
-
+[**NixOS Machine Specs**](https://pcpartpicker.com/list/ygQKGJ) --
+[**Macbook Specs**](https://www.apple.com/shop/buy-mac/macbook-air/13-inch-sky-blue-m4-chip-with-10-core-cpu-8-core-gpu-16gb-memory-256gb)
 
 ## Peripherals
 
-| **Device**      | **Model**                     |
-|----------------|------------------------------|
-| **Keyboard**   | Corne (Scratch), Highground 60% |
-| **Mouse**      | Logitech G Pro X Superlight  |
-| **Monitor**    | ASUS TUF 27" 1080p 240hz |
-| **Speakers**   |      Edifier MR4         | 
-|  **Desk-Desk** |      Made in School      |
-|  **"Symbols"** |        Traditional Mandarin (Taiwan)         |
-| **Chair**      | Dining room table chair  |
-| **Plants**     | No idea                  |
+| **Device**     | **Model**                            |
+|----------------|--------------------------------------|
+| **Keyboard**   | Corne (From Scratch), Highground 60% |
+| **Mouse**      | Logitech G Pro X Superlight          |
+| **Monitor**    | ASUS TUF 27" 1080p 240hz             |
+| **Speakers**   | Edifier MR4                          | 
+|  **Desk-Desk** | Build Myself                         |
+|  **"Symbols"** | Traditional Mandarin (Taiwan)        |
+| **Plants**     | No idea                              |
 
----
-
-### Getting Started  
-1. Browse through the configurations in their respective directories:  
-2. Take whatever you want!
