@@ -14,5 +14,9 @@ in
         mesa.opencl
       ];
     };
+    bluetooth = {
+      enable = true;
+      powerOnBoot = true; 
+    }; 
   };
 }

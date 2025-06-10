@@ -3,7 +3,9 @@
 {
   services = {
     printing.enable = true;
-   
+    
+    blueman.enable = true;
+    
     displayManager.sddm = {
       enable = true;
       wayland.enable = true;

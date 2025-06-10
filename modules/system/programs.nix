@@ -3,7 +3,8 @@
   programs = {
     zsh.enable = true;
     nix-ld.enable = true;
-    
+
+    # APPIMAGES 
     appimage = {
       enable = true;
       binfmt = true;

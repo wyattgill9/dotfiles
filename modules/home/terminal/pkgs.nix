@@ -3,7 +3,6 @@
   home.packages = with pkgs; [
     ripgrep
     yazi
-    jujutsu 
     fzf
     cmatrix
     tldr

@@ -16,5 +16,6 @@
     ./tmux.nix
     ./zed.nix
     ./ghostty.nix 
+    ./alacritty.nix 
   ];
 }
