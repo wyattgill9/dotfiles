@@ -1,10 +1,8 @@
-{ config, pkgs, inputs, ... }:
+{ pkgs, lib, ... }:
 
 {
   programs.zed-editor = {
     enable = true;
-    extensions = [
-       "nix" 
-    ];
+    extensions = [ "nix" ];
   };
 }

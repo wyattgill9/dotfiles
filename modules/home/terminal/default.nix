@@ -13,7 +13,6 @@
     ./bat.nix
     ./gh.nix
     ./tmux.nix
-    ./zed.nix
     ./ghostty.nix 
     ./alacritty.nix 
   ];
