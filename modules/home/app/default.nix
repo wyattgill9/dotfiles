@@ -5,5 +5,6 @@
     ./email.nix 
     ./spotify.nix
     ./obs.nix 
+    ./zed.nix 
   ];
 }

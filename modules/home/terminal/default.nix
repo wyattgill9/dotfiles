@@ -6,7 +6,6 @@
     ./zsh.nix
     ./cava.nix
     ./pkgs.nix
-    ./nitch.nix
     ./starship.nix
     ./zoxide.nix
     ./btop.nix
