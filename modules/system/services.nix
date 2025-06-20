@@ -4,7 +4,6 @@
   services = {
     openssh = {
       enable = true;
-      port = 22;
       
       settings = {
         PasswordAuthentication = true;
