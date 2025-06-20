@@ -16,10 +16,17 @@
     shell = pkgs.zsh;
   };
 
+  # nix.settings.auto-optimise-store = true;
+  
+  nix.gc = {
+    automatic = true;
+    dates = "weekly";
+    options = "--delete-older-than 30d";
+  };
+
+
   environment.systemPackages = with pkgs; [
     home-manager
-    zsh
-    cargo 
 
     grim 
     dunst 
@@ -28,11 +35,6 @@
    
     waybar 
     rofi-wayland 
-    
-    # hyprpaper 
-    # hyprlock 
-    # hyprsunset 
-    # hyprland
     
     adwaita-icon-theme
     ghostty
