@@ -16,7 +16,7 @@
 | **Prompt**             | Starship                       | 
 | **Editor**             | Neovim                         |
 | **Launcher**           | Rofi / Raycast                 |
-| **Bar**                | Hyprpanel                      |
+| **Bar**                | Waybar                      |
 | **Package Manager**    | Nixpkgs / Homebrew             |
 | **Terminal Emulator**  | Ghostty                        | 
 | **Font**               | 0xProto Nerd Font              |
