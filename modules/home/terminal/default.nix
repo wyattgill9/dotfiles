@@ -1,15 +1,15 @@
 { config, pkgs, ... }:
 {
   imports = [
+    ./fastfetch/default.nix
+    ./nvim/neovide.nix 
     ./git.nix
     ./helix.nix
     ./zsh.nix
     ./cava.nix
-    ./pkgs.nix
     ./starship.nix
     ./zoxide.nix
     ./btop.nix
-    ./fastfetch/default.nix
     ./bat.nix
     ./gh.nix
     ./tmux.nix

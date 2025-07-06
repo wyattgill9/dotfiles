@@ -27,19 +27,8 @@
 
   environment.systemPackages = with pkgs; [
     home-manager
-
-    grim 
-    dunst 
-    libnotify 
-    wl-clipboard
-   
-    waybar 
-    rofi-wayland 
-    
-    adwaita-icon-theme
+    curl
     ghostty
-
-    unzip
   ];
 
   system.stateVersion = "24.11";

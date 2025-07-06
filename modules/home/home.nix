@@ -1,12 +1,11 @@
 { config, pkgs, ... }:
 {
   imports = [
+    ./hypr/default.nix
     ./terminal/default.nix
-    ./browser/default.nix
-    ./games/default.nix
     ./app/default.nix
     ./var.nix
-    ./hypr/default.nix 
+    ./pkgs.nix 
   ];
 
   nixpkgs.config.allowUnfree = true;

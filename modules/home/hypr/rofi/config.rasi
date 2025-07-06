@@ -8,8 +8,8 @@ configuration {
 }
 
 /*****----- Global Properties -----*****/
-@import                          "shared/colors.rasi"
-@import                          "shared/fonts.rasi"
+@import                          "./tokyonight.rasi"
+@import                          "./fonts.rasi"
 
 /*****----- Main Window -----*****/
 window {
