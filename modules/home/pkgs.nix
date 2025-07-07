@@ -4,7 +4,6 @@
     ripgrep
     yazi
     fzf
-    cmatrix
     tldr
     zoom-us
     clang cmake lldb gnumake

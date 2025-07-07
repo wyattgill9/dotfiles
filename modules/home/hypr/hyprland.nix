@@ -27,7 +27,7 @@
 
       exec-once = wl-paste --type text --watch cliphist store
       exec-once = wl-paste --type image --watch cliphist store
-      exec-once = waybar
+      # exec-once = waybar
       exec-once = hyprpaper
       exec-once = hyprsunset
 

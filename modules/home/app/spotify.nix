@@ -10,8 +10,6 @@ in
     colorScheme = "mocha";
     enabledExtensions = with spicePkgs.extensions; [
       adblockify
-      # hidePodcasts
-      # shuffle
     ];
   };
 }

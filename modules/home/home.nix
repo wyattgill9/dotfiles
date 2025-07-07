@@ -1,9 +1,9 @@
 { config, pkgs, ... }:
 {
   imports = [
-    ./hypr/default.nix
-    ./terminal/default.nix
-    ./app/default.nix
+    ./hypr
+    ./terminal
+    ./app
     ./var.nix
     ./pkgs.nix 
   ];
