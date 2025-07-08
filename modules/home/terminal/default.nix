@@ -2,7 +2,6 @@
 {
   imports = [
     ./git.nix
-    ./helix.nix
     ./zsh.nix
     ./starship.nix
     ./zoxide.nix
@@ -10,6 +9,6 @@
     ./bat.nix
     ./gh.nix
     ./tmux.nix
-    ./ghostty.nix 
+    ./ghostty
   ];
 }

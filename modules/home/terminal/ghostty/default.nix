@@ -1,14 +1,22 @@
 { config, ghostty, ... }:
 {
+  # Shaders 
+  home.file.".config/ghostty/shaders" = {
+    source = ./shaders;
+    recursive = true;
+  };
+
   programs.ghostty = {
     enable = true;
     enableZshIntegration = true;
+    installBatSyntax = true;
     settings = {
       font-family = "0xProto Nerd Font";
       window-decoration = false;
       gtk-titlebar = false;
       background-opacity = 0.8;
       theme = "tokyonight_night";
+      custom-shader = "shaders/cursor_smear.glsl";
     };
 
     themes = {
