@@ -10,6 +10,8 @@
 
     neovim
     
+    fastfetch
+
     # notify
     dunst
     libnotify
