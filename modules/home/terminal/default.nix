@@ -10,5 +10,6 @@
     ./gh.nix
     ./tmux.nix
     ./ghostty
+    ./helix.nix 
   ];
 }

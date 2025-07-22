@@ -2,23 +2,18 @@
 {
   home.packages = with pkgs; [
     ripgrep
-    yazi
     fzf
     tldr
     zoom-us
-    clang cmake lldb gnumake
 
-    neovim
-    
+    neovim    
+
     fastfetch
 
     # notify
     dunst
     libnotify
     wl-clipboard
-    
-    # rofi 
-    rofi-wayland 
     
     # icons
     adwaita-icon-theme
@@ -28,6 +23,7 @@
     xfce.thunar-archive-plugin
     xfce.thunar-volman         
     xfce.tumbler                
+    
     google-chrome                
     
     # SDL 

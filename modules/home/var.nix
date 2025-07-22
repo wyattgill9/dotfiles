@@ -1,7 +1,6 @@
 { config, pkgs, ... }:
 {
  home.sessionVariables = {
-    # Unset GTK_IM_MODULE to let GTK auto-detect
     GTK_IM_MODULE = "";
         
     QT_IM_MODULE = "fcitx";

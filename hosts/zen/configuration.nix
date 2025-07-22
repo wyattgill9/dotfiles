@@ -3,7 +3,7 @@
 {
   imports = [
     ./hardware.nix
-    ../../modules/system/default.nix 
+    ../../modules/system
     inputs.home-manager.nixosModules.home-manager
   ];
 
@@ -16,20 +16,26 @@
     shell = pkgs.zsh;
   };
 
-  # nix.settings.auto-optimise-store = true;
-  
   nix.gc = {
     automatic = true;
     dates = "weekly";
     options = "--delete-older-than 30d";
   };
 
-
   environment.systemPackages = with pkgs; [
     home-manager
+    
+    git
+    clang-tools
+    llvmPackages_latest.clang
+    llvmPackages_latest.libcxx
+    llvmPackages_latest.lldb
+    
+    foot
     curl
-    ghostty
   ];
-
+  
+  environment.variables.PATH = "${pkgs.clang-tools}/bin:$PATH";
+  
   system.stateVersion = "24.11";
 }

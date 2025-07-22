@@ -8,12 +8,12 @@
         
         preload = [
           "~/nx/wallpapers/nix-snowflake.png"
-          "~/nx/wallpapers/cat_lofi_cafe.jpg"
+          # "~/nx/wallpapers/cat_lofi_cafe.jpg"
         ];
         
         wallpaper = [
           "DP-3,~/nx/wallpapers/nix-snowflake.png"
-          "HDMI-A-1,~/nx/wallpapers/cat_lofi_cafe.jpg"
+          "HDMI-A-1,~/nx/wallpapers/nix-snowflake.png"
         ];
       };
     };   

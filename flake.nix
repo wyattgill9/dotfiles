@@ -15,9 +15,11 @@
     spicetify-nix.url = "github:Gerg-L/spicetify-nix/24.11"; 
      
     ghostty.url = "github:ghostty-org/ghostty";
+
+    helix.url = "github:helix-editor/helix";
   };
 
-  outputs = { self, nixpkgs, home-manager, zen-browser, hyprland, spicetify-nix, ghostty, ... }@inputs:
+  outputs = { self, nixpkgs, home-manager, zen-browser, hyprland, spicetify-nix, ghostty, helix, ... }@inputs:
     let
       system = "x86_64-linux";
 
