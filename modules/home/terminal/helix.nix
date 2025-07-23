@@ -10,11 +10,7 @@
       
       editor = {
         idle-timeout = 50;
-        completion-timeout = 50;
-        preview-completion-insert = true;
         true-color = true;
-        undercurl = true;
-        auto-format = true;
         mouse = false;   
 
         cursor-shape = {

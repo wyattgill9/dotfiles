@@ -24,9 +24,13 @@
 
   environment.systemPackages = with pkgs; [
     home-manager
-    
+
+    gnumake
+    cmake
+        
     git
-    clang-tools
+    clang-tools # clangd
+
     llvmPackages_latest.clang
     llvmPackages_latest.libcxx
     llvmPackages_latest.lldb

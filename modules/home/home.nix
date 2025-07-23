@@ -7,7 +7,7 @@
     ./var.nix
     ./pkgs.nix 
   ];
-
+ 
   nixpkgs.config.allowUnfree = true;
   home.username = "wyattgill";
   home.homeDirectory = "/home/wyattgill";
