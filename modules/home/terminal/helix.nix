@@ -7,7 +7,7 @@
 
     settings = {
       theme = "tokyonight";
-      
+            
       editor = {
         idle-timeout = 50;
         true-color = true;
@@ -23,6 +23,15 @@
           hidden = false;
         };
       }; 
+    };
+
+    languages = {
+      language = [
+        {
+          name = "cpp";
+          indent = { tab-width = 4; unit = "    ";};
+        }
+      ];
     };
   };
 }

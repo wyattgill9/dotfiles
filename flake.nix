@@ -23,9 +23,11 @@
     let
       system = "x86_64-linux";
 
+      ghosttyPkg = inputs.ghostty.packages.${system}.default;
+
       pkgs = import nixpkgs { 
         inherit system;
-        
+              
         config = {
            allowUnfree = true;
         };
@@ -41,17 +43,25 @@
             ./hosts/zen/configuration.nix 
         ];
       };
+
+      # Ryu (Server)
+      ryu = nixpkgs.lib.nixosSystem {
+        specialArgs = { inherit inputs system; };
+        modules = [
+          ./hosts/ryu/configuration.nix
+        ];
+      };    
     };
 
     homeConfigurations = {
       "wyattgill@zen" = home-manager.lib.homeManagerConfiguration {
-        pkgs = nixpkgs.legacyPackages.x86_64-linux;
+        inherit pkgs;      
         extraSpecialArgs = { inherit inputs self; };
         modules = [ 
             ./modules/home/home.nix 
             inputs.spicetify-nix.homeManagerModules.spicetify
             ({ pkgs, ... }: {
-              programs.ghostty.package = inputs.ghostty.packages.${pkgs.stdenv.hostPlatform.system}.default;
+              programs.ghostty.package = ghosttyPkg;
             })
         ];
       };

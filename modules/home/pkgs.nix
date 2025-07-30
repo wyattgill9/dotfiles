@@ -6,8 +6,8 @@
     tldr
     zoom-us
 
-    neovim    
-
+    cargo
+  
     fastfetch
 
     # notify
@@ -25,8 +25,5 @@
     xfce.tumbler                
     
     google-chrome                
-    
-    # SDL 
-    SDL2 
   ];
 }
