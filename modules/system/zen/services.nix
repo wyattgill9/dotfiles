@@ -27,6 +27,4 @@
   environment.systemPackages = with pkgs; [
     lxqt.lxqt-policykit
   ];
-
-  systemd.extraConfig = "DefaultTimeoutStopSec=10s";
 }

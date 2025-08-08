@@ -17,14 +17,15 @@ in
   hardware = {
     graphics = {
       enable = true;
-      package = pkgs.mesa;
+      # package = pkgs.mesa;
       extraPackages = with pkgs; [
         libvdpau-va-gl
         vaapiVdpau
+        mesa
         mesa.opencl
       ];
     };
-
+  
     bluetooth = {
       enable = true;
       powerOnBoot = true;

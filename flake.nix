@@ -3,68 +3,73 @@
 
   inputs = {
     nixpkgs.url = "github:NixOS/nixpkgs/nixos-unstable";
+
     home-manager = {
       url = "github:nix-community/home-manager/master";
       inputs.nixpkgs.follows = "nixpkgs";
     };
-    zen-browser.url = "github:0xc000022070/zen-browser-flake";
+
+    zen-browser = {
+      url = "github:0xc000022070/zen-browser-flake";
+      inputs.nixpkgs.follows = "nixpkgs";
+    };
+
     hyprland = {
       url = "github:hyprwm/hyprland";
       inputs.nixpkgs.follows = "nixpkgs";
     };
-    spicetify-nix.url = "github:Gerg-L/spicetify-nix/24.11"; 
-     
-    ghostty.url = "github:ghostty-org/ghostty";
+
+    spicetify-nix.url = "github:Gerg-L/spicetify-nix/24.11";
+
+    ghostty = {
+      url = "github:ghostty-org/ghostty";
+      inputs.nixpkgs.follows = "nixpkgs";
+    };
 
     helix.url = "github:helix-editor/helix";
   };
 
-  outputs = { self, nixpkgs, home-manager, zen-browser, hyprland, spicetify-nix, ghostty, helix, ... }@inputs:
-    let
-      system = "x86_64-linux";
+  outputs = { self, nixpkgs, home-manager, zen-browser, hyprland,
+               spicetify-nix, ghostty, helix, ... }@inputs:
+  let
+    system = "x86_64-linux";
+    pkgs = import nixpkgs {
+      inherit system;
+      config = { allowUnfree = true; };
+    };
 
-      ghosttyPkg = inputs.ghostty.packages.${system}.default;
+    mkSystem = attrs: nixpkgs.lib.nixosSystem (attrs // {
+      inherit system;
+      specialArgs = { inherit inputs system; };
+    });
 
-      pkgs = import nixpkgs { 
-        inherit system;
-              
-        config = {
-           allowUnfree = true;
-        };
-     };
-    in 
-    {
+    ghosttyPkg = ghostty.packages.${system}.default;
+
+  in {
 
     nixosConfigurations = {
-      # Zen (Desktop)
-      zen = nixpkgs.lib.nixosSystem {
-        specialArgs = { inherit inputs system; }; 
-        modules = [
-            ./hosts/zen/configuration.nix 
-        ];
+      zen = mkSystem {
+        modules = [ ./hosts/zen/configuration.nix ];
       };
 
-      # Ryu (Server)
-      ryu = nixpkgs.lib.nixosSystem {
-        specialArgs = { inherit inputs system; };
-        modules = [
-          ./hosts/ryu/configuration.nix
-        ];
-      };    
+      ryu = mkSystem {
+        modules = [ ./hosts/ryu/configuration.nix ];
+      };
     };
 
     homeConfigurations = {
       "wyattgill@zen" = home-manager.lib.homeManagerConfiguration {
-        inherit pkgs;      
+        inherit pkgs;
         extraSpecialArgs = { inherit inputs self; };
-        modules = [ 
-            ./modules/home/home.nix 
-            inputs.spicetify-nix.homeManagerModules.spicetify
-            ({ pkgs, ... }: {
-              programs.ghostty.package = ghosttyPkg;
-            })
+        modules = [
+          ./modules/home/home.nix
+          spicetify-nix.homeManagerModules.spicetify
+          ({ pkgs, ... }: {
+            programs.ghostty.package = ghosttyPkg;
+          })
         ];
       };
     };
   };
 }
+

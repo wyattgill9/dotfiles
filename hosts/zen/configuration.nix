@@ -3,7 +3,7 @@
 {
   imports = [
     ./hardware.nix
-    ../../modules/system
+    ../../modules/system/zen
     inputs.home-manager.nixosModules.home-manager
   ];
 
@@ -12,7 +12,7 @@
   users.users.wyattgill = {
     isNormalUser = true;
     description = "wyattgill";
-    extraGroups = [ "libvirtd" "networkmanager" "wheel" ];
+    extraGroups = [ "libvirtd" "networkmanager" "wheel" "kvm" ];
     shell = pkgs.zsh;
   };
 
@@ -30,9 +30,13 @@
     git
 
     clang-tools # clangd
+    llvmPackages_latest.lldb
     llvmPackages_latest.clang
     llvmPackages_latest.libcxx
-    
+    linuxPackages_latest.perf      
+
+    perl # Flamegraph
+
     foot
     curl
   ];

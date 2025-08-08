@@ -6,6 +6,8 @@
     tldr
     zoom-us
 
+    obsidian
+
     cargo
   
     fastfetch
