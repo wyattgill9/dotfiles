@@ -9,7 +9,6 @@
 |------------------------|--------------------------------|
 | **Window Manager**     | Hyprland                       | 
 | **Shell**              | Zsh                            |
-| **Prompt**             | Starship                       | 
 | **Editor**             | Helix                          |
 | **Launcher**           | Rofi                           |
 | **Bar**                | Waybar                         |

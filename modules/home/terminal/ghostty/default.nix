@@ -8,6 +8,7 @@
 
   programs.ghostty = {
     enable = true;
+
     enableZshIntegration = true;
     installBatSyntax = true;
     
@@ -15,6 +16,9 @@
       font-family = "0xProto Nerd Font";
       window-decoration = false;
       gtk-titlebar = false;
+
+      gtk-single-instance = true;
+
       background-opacity = 0.8;
       theme = "tokyonight_night";
     };

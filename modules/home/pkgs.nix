@@ -8,8 +8,6 @@
 
     obsidian
 
-    cargo
-  
     fastfetch
 
     # notify

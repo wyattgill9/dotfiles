@@ -23,6 +23,10 @@
           hidden = false;
         };
       }; 
+
+      keys.normal = {
+        "C-g" = [":new" ":insert-output lazygit" ":buffer-close!" ":redraw"];        
+      };
     };
 
     languages = {
@@ -33,5 +37,9 @@
         }
       ];
     };
+  };
+
+  programs.lazygit = {
+    enable = true;
   };
 }

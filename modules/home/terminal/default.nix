@@ -3,7 +3,6 @@
   imports = [
     ./git.nix
     ./zsh.nix
-    ./starship.nix
     ./zoxide.nix
     ./btop.nix
     ./bat.nix
@@ -11,5 +10,6 @@
     ./tmux.nix
     ./ghostty
     ./helix.nix 
+    ./starship.nix
   ];
 }

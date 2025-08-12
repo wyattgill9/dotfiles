@@ -20,5 +20,5 @@
     options = "--delete-older-than 30d";
   };
  
-  system.stateVersion = "24.11";
+  system.stateVersion = "25.11";
 }

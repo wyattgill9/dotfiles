@@ -5,6 +5,7 @@
     autosuggestion.enable = true;
     initContent = ''
       eval "$(starship init zsh)"
+
       eval "$(zoxide init zsh)"
       
       autoload -U compinit
@@ -16,6 +17,7 @@
        c = "clear";
        cat = "bat"; 
        vim = "nvim";
+       ls = "lsd";
     };
   };
 }
