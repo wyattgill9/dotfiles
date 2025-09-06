@@ -14,10 +14,13 @@
       ### WORKSPACES ###
       ##################
 
+      # Right Monitor
       workspace = 1, monitor:DP-3
       workspace = 2, monitor:DP-3
       workspace = 3, monitor:DP-3
-      workspace = 4, monitor:HDMI-A-1
+      workspace = 4, monitor:DP-3
+
+      # Left Monitor
       workspace = 5, monitor:HDMI-A-1
       workspace = 6, monitor:HDMI-A-1
 
@@ -45,7 +48,7 @@
       ###  PROGRAMS   ###
       ###################
 
-      $terminal = ghostty
+      $terminal = alacritty
       $fileManager = thunar
       $menu = rofi --show drun
 
@@ -64,15 +67,16 @@
 
       bind = $mainMod SHIFT, Z, exec, rofi -show drun -theme ~/.config/rofi/config.rasi
 
+
       bind = $mainMod, Q, exec, $terminal
       bind = $mainMod, C, killactive,
       bind = $mainMod, M, exit,
       bind = $mainMod, E, exec, $fileManager
+      bind = $mainMod, F,fullscreen
       bind = $mainMod, V, togglefloating,
       bind = $mainMod, R, exec, $menu
       bind = $mainMod, P, pseudo, # dwindle
       bind = $mainMod, J, togglesplit, # dwindle
-
       bind = $mainMod, left, movefocus, l
       bind = $mainMod, right, movefocus, r
       bind = $mainMod, up, movefocus, u

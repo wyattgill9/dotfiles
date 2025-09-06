@@ -8,8 +8,8 @@
     ./bat.nix
     ./gh.nix
     ./tmux.nix
-    ./ghostty
     ./helix.nix 
     ./starship.nix
+    ./alacritty.nix
   ];
 }

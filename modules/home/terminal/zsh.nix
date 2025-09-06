@@ -6,6 +6,8 @@
     initContent = ''
       eval "$(starship init zsh)"
 
+      # PROMPT=$'\n'"%n@%m:%~ λ "
+
       eval "$(zoxide init zsh)"
       
       autoload -U compinit
@@ -16,7 +18,6 @@
        cd = "z";
        c = "clear";
        cat = "bat"; 
-       vim = "nvim";
        ls = "lsd";
     };
   };

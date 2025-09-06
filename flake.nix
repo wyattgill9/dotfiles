@@ -15,15 +15,11 @@
       inputs.nixpkgs.follows = "nixpkgs";
     };
     spicetify-nix.url = "github:Gerg-L/spicetify-nix/24.11";
-    ghostty = {
-      url = "github:ghostty-org/ghostty";
-      inputs.nixpkgs.follows = "nixpkgs";
-    };
     helix.url = "github:helix-editor/helix";
   };
 
   outputs = { self, nixpkgs, home-manager, zen-browser, hyprland,
-               spicetify-nix, ghostty, helix, ... }@inputs:
+               spicetify-nix, helix, ... }@inputs:
   let
     system = "x86_64-linux";
     pkgs = import nixpkgs {
@@ -35,8 +31,6 @@
       inherit system;
       specialArgs = { inherit inputs system; };
     });
-
-    ghosttyPkg = ghostty.packages.${system}.default;
 
   in {
 
@@ -57,9 +51,6 @@
         modules = [
           ./modules/home/home.nix
           spicetify-nix.homeManagerModules.spicetify
-          ({ pkgs, ... }: {
-            programs.ghostty.package = ghosttyPkg;
-          })
         ];
       };
     };

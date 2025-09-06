@@ -6,8 +6,6 @@
     tldr
     zoom-us
 
-    obsidian
-
     fastfetch
 
     # notify
@@ -18,11 +16,7 @@
     # icons
     adwaita-icon-theme
     
-    # Xfce
     xfce.thunar
-    xfce.thunar-archive-plugin
-    xfce.thunar-volman         
-    xfce.tumbler                
     
     google-chrome                
   ];

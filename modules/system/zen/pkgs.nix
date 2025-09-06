@@ -4,6 +4,7 @@
 
   environment.systemPackages = with pkgs; [
     home-manager
+    vim
 
     gnumake cmake
 
@@ -14,8 +15,6 @@
     llvmPackages_latest.clang
     llvmPackages_latest.libcxx
     linuxPackages_latest.perf      
-
-    perl # Flamegraph
 
     foot
     curl
