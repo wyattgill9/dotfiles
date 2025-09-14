@@ -5,6 +5,6 @@
     recursive = true;
   };
   home.packages = with pkgs; [
-    rofi-wayland      
+    rofi
   ];  
 }

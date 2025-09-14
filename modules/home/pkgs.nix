@@ -12,7 +12,10 @@
     dunst
     libnotify
     wl-clipboard
-    
+
+    # sound
+    mplayer
+      
     # icons
     adwaita-icon-theme
     

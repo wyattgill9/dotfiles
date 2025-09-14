@@ -11,5 +11,6 @@
     ./helix.nix 
     ./starship.nix
     ./alacritty.nix
+    ./ghostty.nix
   ];
 }

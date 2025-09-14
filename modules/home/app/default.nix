@@ -5,5 +5,6 @@
     ./spotify.nix
     ./zen.nix
     ./minecraft.nix
+    ./anki.nix
   ];
 }
