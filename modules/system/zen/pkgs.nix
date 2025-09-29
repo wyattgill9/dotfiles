@@ -6,16 +6,20 @@
     home-manager
     vim
 
-    gnumake cmake
+    cmake
 
     git
 
     clang-tools # clangd
+
+    # core C++
+    openssl.dev
+    ninja
     llvmPackages_latest.lldb
     llvmPackages_latest.clang
-    llvmPackages_latest.libcxx
-    linuxPackages_latest.perf      
+    vcpkg
 
+    perf      
     foot
     curl
   ];

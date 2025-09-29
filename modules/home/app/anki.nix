@@ -1,6 +1,7 @@
 { config, pkgs, inputs, ... }:
 {
-  home.packages = with pkgs; [
-    anki-bin
-  ];
+  programs.anki = {
+    enable   = true;
+    language = "en_US";    
+  };
 }

@@ -12,5 +12,6 @@
     ./starship.nix
     ./alacritty.nix
     ./ghostty.nix
+    ./pkgs.nix
   ];
 }

@@ -1,26 +1,10 @@
 { config, pkgs, ... }:
 {
   home.packages = with pkgs; [
-    ripgrep
-    fzf
-    tldr
-    zoom-us
-
-    fastfetch
-
-    # notify
     dunst
     libnotify
     wl-clipboard
-
-    # sound
-    mplayer
-      
-    # icons
-    adwaita-icon-theme
-    
-    xfce.thunar
-    
-    google-chrome                
+    mplayer     
+    adwaita-icon-theme  
   ];
 }

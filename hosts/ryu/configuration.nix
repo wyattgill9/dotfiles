@@ -70,7 +70,6 @@
       gnumake cmake
       clang-tools
       llvmPackages_latest.clang
-      llvmPackages_latest.libcxx
     ];
     variables.PATH = "${pkgs.clang-tools}/bin:$PATH";
   };
