@@ -5,5 +5,6 @@
     fzf
     tldr
     fastfetch
+    lsd
   ];
 }
