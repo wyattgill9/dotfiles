@@ -13,5 +13,5 @@
     curl
   ];
  
-  environment.variables.PATH = "${pkgs.clang-tools}/bin:$PATH";
+  # environment.variables.PATH = "${pkgs.clang-tools}/bin:$PATH";
 }
