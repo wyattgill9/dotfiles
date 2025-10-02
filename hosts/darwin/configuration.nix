@@ -21,7 +21,7 @@
 
   home-manager = {
     useGlobalPkgs = true;
-    # useUserPackages = true;
+    useUserPackages = true;
     extraSpecialArgs = { inherit inputs; };
     users.wyattgill = import ../../modules/home/darwin/home.nix;
   };

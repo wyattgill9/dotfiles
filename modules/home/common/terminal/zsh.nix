@@ -15,11 +15,15 @@
     '';
 
     shellAliases = {
-       cd  = "z";
-       c   = "clear";
-       cat = "bat"; 
-       ls  = "lsd";
-       cmk = "cmake -S . -B build -G Ninja && cmake --build build";
+      # General  
+      cd  = "z";
+      c   = "clear";
+      cat = "bat"; 
+      ls  = "lsd";
+
+      # Dev
+      cmk     = "cmake -S . -B build -G Ninja && cmake --build build";
+      cpp-dev = "nix develop ~/nx#cpp -c zsh";
     };
   };
 }
