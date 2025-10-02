@@ -1,4 +1,4 @@
-{ config, pkgs, ... }:
+{ config, pkgs, lib, ... }:
 {
   imports = [
     ./git.nix
@@ -11,7 +11,7 @@
     ./helix.nix 
     ./starship.nix
     ./alacritty.nix
-    ./ghostty.nix
     ./pkgs.nix
+    ./ghostty.nix
   ];
 }

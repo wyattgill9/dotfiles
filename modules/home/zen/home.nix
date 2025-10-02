@@ -1,8 +1,8 @@
 { config, pkgs, ... }:
 {
   imports = [
+    ../common/terminal
     ./hypr
-    ./terminal
     ./app
     ./var.nix
     ./pkgs.nix 

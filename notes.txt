@@ -1,0 +1,3 @@
+NixOS: sudo nixos-rebuild switch --flake ~/.config/nix#zen
+macOS: sudo darwin-rebuild switch --flake ~/nx#Wyatts-MacBook-Air
+Home Manager (Linux): home-manager switch --flake ~/.config/nix#wyattgill@zen

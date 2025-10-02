@@ -3,7 +3,7 @@
   programs.btop = {
     enable = true;
     package = pkgs.btop.override {
-      rocmSupport = true;
+      rocmSupport = pkgs.stdenv.isLinux;
     };
     settings = {
       vim_keys = true;

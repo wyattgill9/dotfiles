@@ -1,4 +1,4 @@
-{ config, ghostty, ... }:
+{ config, lib, pkgs, ... }:
 {
   # Shaders 
   home.file.".config/ghostty/shaders" = {
@@ -6,7 +6,7 @@
     recursive = true;
   };
 
-  programs.ghostty = {
+  programs.ghostty = lib.mkIf pkgs.stdenv.isLinux {
     enable = true;
 
     enableZshIntegration = true;
