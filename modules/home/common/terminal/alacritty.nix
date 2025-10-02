@@ -2,10 +2,10 @@
 {
   programs.alacritty = {
     enable = true;
-    theme = "tokyo_night_storm";
+    theme = "tokyo_night";
 
     settings = {
-      window.opacity = 0.9;
+      window.opacity = 1;
 
       font = {
         normal = {
