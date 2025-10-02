@@ -6,18 +6,7 @@
     home-manager
     vim
 
-    cmake
-
     git
-
-    clang-tools # clangd
-
-    # core C++
-    openssl.dev
-    ninja
-    llvmPackages_latest.lldb
-    llvmPackages_latest.clang
-    vcpkg
 
     perf      
     foot
