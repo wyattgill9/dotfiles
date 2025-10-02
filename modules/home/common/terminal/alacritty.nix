@@ -7,6 +7,10 @@
     settings = {
       window.opacity = 1;
 
+      env = {
+        TERM = "xterm-256color";
+      };
+  
       font = {
         normal = {
           family = "0xProto Nerd Font";
