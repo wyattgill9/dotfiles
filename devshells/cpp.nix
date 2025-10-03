@@ -1,37 +1,50 @@
 { pkgs }:
 let
-  llvm = pkgs.llvmPackages_21;
+  llvm = if pkgs.stdenv.isLinux 
+         then pkgs.llvmPackages_21 
+         else pkgs.llvmPackages_latest;
+  
+  stdenv = llvm.stdenv;
 in
-pkgs.stdenvNoCC.mkDerivation rec {
+stdenv.mkDerivation {
   pname = "cpp-dev-env";
   version = "1.0";
-
+  
   nativeBuildInputs = with pkgs; [
-    llvm.clang
-    llvm.lldb
-
-    clang-tools
-
     cmake
     ninja
-
     pkg-config
-    openssl.dev
+    llvm.clang-tools
+    llvm.bintools
   ];
-
-  shellHook = ''
+  
+  buildInputs = [
+    pkgs.openssl.dev
+    llvm.libcxx
+  ];
+  
+  LD_LIBRARY_PATH = pkgs.lib.makeLibraryPath [ 
+    llvm.libcxx 
+    pkgs.openssl 
+  ];
+  
+  shellHook = pkgs.lib.optionalString stdenv.isLinux ''
+    export CC_LD=lld
+    export CXX_LD=lld
+  '' + ''
     export CC=${llvm.clang}/bin/clang
     export CXX=${llvm.clang}/bin/clang++
-    export CMAKE_OSX_SYSROOT=""
-    export CMAKE_OSX_DEPLOYMENT_TARGET=""
-
-    echo "  clang:  $(clang --version | head -n1 | cut -d' ' -f3)"
-    echo "  CMake:  $(cmake --version | head -n1 | cut -d' ' -f3)"
-    echo "  ninja:  $(ninja --version)"
+    
+    echo "Development environment ready:"
+    echo "  Compiler: $(clang++ --version | head -n1)"
+    echo "  CMake:    $(cmake --version | head -n1 | cut -d' ' -f3)"
+    echo "  Ninja:    $(ninja --version)"
+    echo "  CC:       $CC"
+    echo "  CXX:      $CXX"
   '';
-
+  
   meta = with pkgs.lib; {
-    description = "C++ development environment with Clang and LLVM 21";
+    description = "C++ development environment with LLVM/Clang and libc++";
     license = licenses.mit;
     platforms = platforms.all;
   };
