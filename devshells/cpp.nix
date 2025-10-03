@@ -22,9 +22,12 @@ pkgs.stdenvNoCC.mkDerivation rec {
   shellHook = ''
     export CC=${llvm.clang}/bin/clang
     export CXX=${llvm.clang}/bin/clang++
-    echo "  Clang:  $(clang --version | head -n1 | cut -d' ' -f3)"
+    export CMAKE_OSX_SYSROOT=""
+    export CMAKE_OSX_DEPLOYMENT_TARGET=""
+
+    echo "  clang:  $(clang --version | head -n1 | cut -d' ' -f3)"
     echo "  CMake:  $(cmake --version | head -n1 | cut -d' ' -f3)"
-    echo "  Ninja:  $(ninja --version)"
+    echo "  ninja:  $(ninja --version)"
   '';
 
   meta = with pkgs.lib; {
