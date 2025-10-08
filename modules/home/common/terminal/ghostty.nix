@@ -6,16 +6,17 @@
     recursive = true;
   };
 
-  programs.ghostty = lib.mkIf pkgs.stdenv.isLinux {
+  programs.ghostty = {
     enable = true;
+    package = if pkgs.stdenv.isLinux then pkgs.ghostty else null;
 
     enableZshIntegration = true;
-    installBatSyntax = true;
-    
+    installBatSyntax = pkgs.stdenv.isLinux;
+        
     settings = {
       font-family = "0xProto Nerd Font";
-      window-decoration = false;
-      gtk-titlebar = false;
+      window-decoration = !pkgs.stdenv.isLinux;
+      gtk-titlebar = true;
 
       gtk-single-instance = true;
 

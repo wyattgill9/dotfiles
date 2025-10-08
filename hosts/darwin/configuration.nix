@@ -19,6 +19,18 @@
     home = "/Users/${config.system.primaryUser}";
   };
 
+  homebrew = {
+    enable = true;
+    onActivation = {
+      cleanup = "zap";
+      autoUpdate = true;
+      upgrade = true;
+    };
+    casks = [
+      "ghostty"
+    ];
+  };
+
   home-manager = {
     useGlobalPkgs = true;
     useUserPackages = true;

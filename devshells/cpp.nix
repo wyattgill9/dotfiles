@@ -19,13 +19,18 @@ stdenv.mkDerivation {
   ];
   
   buildInputs = [
-    pkgs.openssl.dev
     llvm.libcxx
+    pkgs.openssl.dev
+
+    pkgs.abseil-cpp # Containers
+    # pkgs.boost      # Boost
   ];
   
   LD_LIBRARY_PATH = pkgs.lib.makeLibraryPath [ 
     llvm.libcxx 
-    pkgs.openssl 
+    pkgs.openssl
+    pkgs.abseil-cpp
+    # pkgs.boost
   ];
   
   shellHook = pkgs.lib.optionalString stdenv.isLinux ''
