@@ -31,6 +31,7 @@
       language = [
         {
           name = "cpp";
+          file-types = [ "cpp" "hpp" "c" "h" ];
           indent = { tab-width = 4; unit = "    ";};
         }
       ];
