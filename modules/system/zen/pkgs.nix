@@ -12,6 +12,4 @@
     foot
     curl
   ];
- 
-  # environment.variables.PATH = "${pkgs.clang-tools}/bin:$PATH";
 }

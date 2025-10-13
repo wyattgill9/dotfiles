@@ -1,10 +1,12 @@
 {
   description = "RaiinyZen's NixOS & Darwin flake";
+
   inputs = {
     nixpkgs.url = "github:NixOS/nixpkgs/nixos-unstable";
-    darwin.url = "github:lnl7/nix-darwin";
-    darwin.inputs.nixpkgs.follows = "nixpkgs";
-    flake-utils.url = "github:numtide/flake-utils";
+    darwin = {
+      url = "github:lnl7/nix-darwin";
+      inputs.nixpkgs.follows = "nixpkgs";
+    };
     home-manager = {
       url = "github:nix-community/home-manager/master";
       inputs.nixpkgs.follows = "nixpkgs";
@@ -14,65 +16,54 @@
       inputs.nixpkgs.follows = "nixpkgs";
     };
     spicetify-nix.url = "github:Gerg-L/spicetify-nix/24.11";
+    flake-utils.url = "github:numtide/flake-utils";
   };
-  
-  outputs = { self, nixpkgs, darwin, home-manager, zen-browser, spicetify-nix, flake-utils, ... }@inputs:
-  let
-    system-linux = "x86_64-linux";
-    pkgs-linux = import nixpkgs {
-      system = system-linux;
-      config = { allowUnfree = true; };
-    };
-    
-    system-darwin = "aarch64-darwin";
-    pkgs-darwin = import nixpkgs {
-      system = system-darwin;
-      config = { allowUnfree = true; };
-    };
-    
-    mkSystem = attrs: nixpkgs.lib.nixosSystem (attrs // {
-      system = system-linux;
-      specialArgs = { inherit inputs; system = system-linux; };
-    });
-  in
-  {
-    nixosConfigurations = {
-      zen = mkSystem {
+
+  outputs = {
+    self,
+    nixpkgs,
+    darwin,
+    home-manager,
+    spicetify-nix,
+    flake-utils,
+    ...
+  }@inputs:
+    let
+      systemLinux = "x86_64-linux";
+      systemDarwin = "aarch64-darwin";
+    in
+    {
+      nixosConfigurations.zen = nixpkgs.lib.nixosSystem {
+        system = systemLinux;
+        specialArgs = { inherit inputs; };
         modules = [ ./hosts/zen/configuration.nix ];
       };
-    };
-    
-    darwinConfigurations = {
-      "Wyatts-MacBook-Air" = darwin.lib.darwinSystem {
-        system = system-darwin;
-        specialArgs = { inherit inputs; };
-        modules = [
-          ./hosts/darwin/configuration.nix
-        ];
-      };
-    };
-    
-    homeConfigurations = {
-      "wyattgill@zen" = home-manager.lib.homeManagerConfiguration {
-        pkgs = pkgs-linux;
+
+      homeConfigurations."wyattgill@zen" = home-manager.lib.homeManagerConfiguration {
+        pkgs = nixpkgs.legacyPackages.${systemLinux};
         extraSpecialArgs = { inherit inputs self; };
         modules = [
           ./modules/home/zen/home.nix
           spicetify-nix.homeManagerModules.spicetify
         ];
       };
-    };
-  } //
 
-  # Devshells  
-  flake-utils.lib.eachDefaultSystem (system:
-    let
-      pkgs = nixpkgs.legacyPackages.${system};
-    in
-    {
-      devShells = {
-        cpp = import ./devshells/cpp.nix { inherit pkgs; };
+      darwinConfigurations."Wyatts-MacBook-Air" = darwin.lib.darwinSystem {
+        system = systemDarwin;
+        specialArgs = { inherit inputs; };
+        modules = [ ./hosts/darwin/configuration.nix ];
       };
-    }
-  );
-}
+    } //
+
+    # Devshells  
+    flake-utils.lib.eachDefaultSystem (system:
+      let
+        pkgs = nixpkgs.legacyPackages.${system};
+      in
+      {
+        devShells = {
+          cpp = import ./devshells/cpp.nix { inherit pkgs; };
+        };
+      }
+    );
+} 

@@ -1,11 +1,12 @@
 { config, pkgs, ... }:
+let
+  homePath = ../../modules/home;
+in
 {
   imports = [
-    ../common/terminal
+    (homePath + /common.nix)
   ];
  
-  # nixpkgs.config.allowUnfree = true;
-
   home.username = "wyattgill";
   home.homeDirectory = "/Users/wyattgill";
   home.stateVersion = "25.05";
