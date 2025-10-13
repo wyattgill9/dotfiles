@@ -43,7 +43,7 @@
         pkgs = nixpkgs.legacyPackages.${systemLinux};
         extraSpecialArgs = { inherit inputs self; };
         modules = [
-          ./modules/home/zen/home.nix
+          ./hosts/zen/home.nix
           spicetify-nix.homeManagerModules.spicetify
         ];
       };
