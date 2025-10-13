@@ -7,5 +7,7 @@
     ./hyprsunset.nix 
     ./rofi/default.nix
     ./waybar.nix
+
+    ./sway.nix
   ];
 }

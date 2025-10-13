@@ -2,7 +2,7 @@
 {
   imports = [
     ../common/terminal
-    ./hypr
+    ./wm
     ./app
     ./var.nix
     ./pkgs.nix 

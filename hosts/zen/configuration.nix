@@ -10,7 +10,7 @@
   users.users.wyattgill = {
     isNormalUser = true;
     description = "wyattgill";
-    extraGroups = [ "libvirtd" "networkmanager" "wheel" "kvm" ];
+    extraGroups = [ "libvirtd" "networkmanager" "wheel" "kvm" "input" "seat"];
     shell = pkgs.zsh;
   };
 
