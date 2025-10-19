@@ -16,6 +16,8 @@ stdenv.mkDerivation {
     pkg-config
     llvm.clang-tools
     llvm.bintools
+    llvm.lldb
+    scc
   ];
   
   buildInputs = [
