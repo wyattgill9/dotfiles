@@ -21,6 +21,14 @@
         set -g default-terminal "tmux-256color"
 
         set -sg escape-time 0
+
+
+        # KEYBINDINGS
+
+        bind -n M-h select-pane -L
+        bind -n M-j select-pane -D
+        bind -n M-k select-pane -U
+        bind -n M-l select-pane -R
     '';
 
    };

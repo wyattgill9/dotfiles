@@ -23,7 +23,10 @@
       }; 
 
       keys.normal = {
-        "C-g" = [":new" ":insert-output lazygit" ":buffer-close!" ":redraw"];        
+        "C-g" = [":new" ":insert-output lazygit" ":buffer-close!" ":redraw"];
+
+        # Debugger - LLDB gui
+        "C-p" = [":run-shell-command tmux split-window -h"];
       };
     };
 

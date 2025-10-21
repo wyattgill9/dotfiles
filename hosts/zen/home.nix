@@ -27,7 +27,7 @@ in {
     GDK_BACKEND = "wayland";
   };
   
-  # HM pkgs
+  # hm pkgs
   home.packages = with pkgs; [
     dunst
     libnotify
