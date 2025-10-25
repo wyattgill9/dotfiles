@@ -16,7 +16,7 @@ stdenv.mkDerivation {
     pkg-config
     llvm.clang-tools
     llvm.bintools
-    llvm.lldb
+    gdb
     scc
   ];
   
@@ -25,14 +25,14 @@ stdenv.mkDerivation {
     pkgs.openssl.dev
 
     pkgs.abseil-cpp # Containers
-    # pkgs.boost      # Boost
+    pkgs.boost      # Boost
   ];
   
   LD_LIBRARY_PATH = pkgs.lib.makeLibraryPath [ 
     llvm.libcxx 
     pkgs.openssl
     pkgs.abseil-cpp
-    # pkgs.boost
+    pkgs.boost
   ];
   
   shellHook = pkgs.lib.optionalString stdenv.isLinux ''

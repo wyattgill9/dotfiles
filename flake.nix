@@ -1,5 +1,5 @@
 {
-  description = "RaiinyZen's NixOS & Darwin flake";
+  description = "Wyatt Gill's (rainyzen) NixOS & Darwin flake";
 
   inputs = {
     nixpkgs.url = "github:NixOS/nixpkgs/nixos-unstable";
@@ -62,7 +62,8 @@
       in
       {
         devShells = {
-          cpp = import ./devshells/cpp.nix { inherit pkgs; };
+          cpp      = import ./devshells/cpp.nix    { inherit pkgs; };
+          python   = import ./devshells/python.nix { inherit pkgs; };
         };
       }
     );

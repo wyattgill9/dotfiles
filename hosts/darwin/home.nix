@@ -1,10 +1,10 @@
 { config, pkgs, ... }:
 let
-  homePath = ../../modules/home;
+  homePath = ../../home;
 in
 {
   imports = [
-    (homePath + /common.nix)
+    (homePath + /terminal)
   ];
  
   home.username = "wyattgill";

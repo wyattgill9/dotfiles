@@ -7,5 +7,6 @@
     tldr
     fastfetch
     lsd
+    just
   ];
 }

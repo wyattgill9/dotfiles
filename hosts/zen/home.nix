@@ -1,9 +1,9 @@
 { config, pkgs, ... }:
 let
-  homePath = ../../modules/home;
+  homePath = ../../home;
 in {
   imports = [
-    (homePath + /common.nix)
+    (homePath + /terminal)
     (homePath + /wm)
     (homePath + /app)
   ];
