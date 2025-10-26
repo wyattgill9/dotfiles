@@ -26,6 +26,7 @@ stdenv.mkDerivation {
 
     pkgs.abseil-cpp # Containers
     pkgs.boost      # Boost
+    pkgs.rapidjson
   ];
   
   LD_LIBRARY_PATH = pkgs.lib.makeLibraryPath [ 
@@ -33,6 +34,7 @@ stdenv.mkDerivation {
     pkgs.openssl
     pkgs.abseil-cpp
     pkgs.boost
+    pkgs.rapidjson
   ];
   
   shellHook = pkgs.lib.optionalString stdenv.isLinux ''

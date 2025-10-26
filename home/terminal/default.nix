@@ -1,17 +1,17 @@
-{ config, pkgs, lib, ... }:
+{ ... }:
 {
   imports = [
+    ./helix
+    ./tmux.nix
+    ./ghostty.nix
+    ./alacritty.nix
     ./git.nix
+    ./gh.nix
     ./zsh.nix
     ./zoxide.nix
+    ./starship.nix
     ./btop.nix
     ./bat.nix
-    ./gh.nix
-    ./tmux.nix
-    ./helix.nix 
-    ./starship.nix
-    ./alacritty.nix
     ./pkgs.nix
-    ./ghostty.nix
   ];
 }

@@ -1,4 +1,4 @@
-{ inputs, pkgs, config, ... }:
+{ inputs, config, ... }:
 
 {
   nix.enable = false;

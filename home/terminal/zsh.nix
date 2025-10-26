@@ -1,4 +1,4 @@
-{ config, pkgs, lib, ... }:
+{ ... }:
 let
   langs = [ "cpp" "python" ];
 in
@@ -14,8 +14,7 @@ in
       compinit
     '';
 
-    shellAliases =
-      {
+    shellAliases = {
         cd  = "z";
         c   = "clear";
         cat = "bat";

@@ -1,4 +1,4 @@
-{ config, pkgs, ... }:
+{ ... }:
 let
   homePath = ../../home;
 in

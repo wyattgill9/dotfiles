@@ -1,8 +1,8 @@
-{ config, pkgs, ... }:
+{ pkgs, ... }:
 {
   home.packages = with pkgs; [
-    zoom-us
     google-chrome
+    zoom-us
     xfce.thunar
   ];
 }
