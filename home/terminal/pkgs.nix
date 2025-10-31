@@ -6,7 +6,7 @@
 
     
     neovim
-
+    
     just
     ripgrep
     fzf

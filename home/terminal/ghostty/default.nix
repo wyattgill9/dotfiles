@@ -1,10 +1,9 @@
 { pkgs, ... }:
 {
-  # # Shaders 
-  # home.file.".config/ghostty/shaders" = {
-  #   source = ./shaders;
-  #   recursive = true;
-  # };
+  home.file.".config/ghostty/shaders" = {
+    source = ./shaders;
+    recursive = true;
+  };
 
   programs.ghostty = {
     enable = true;
@@ -17,8 +16,10 @@
       font-family = "0xProto Nerd Font";
       window-decoration = !pkgs.stdenv.isLinux;
       gtk-titlebar = true;
-
       gtk-single-instance = true;
+
+      # custom-shader-animation = true;
+      # custom-shader = "shaders/cursor_warp.glsl";
 
       background-opacity = 0.8;
       theme = "tokyonight_night";

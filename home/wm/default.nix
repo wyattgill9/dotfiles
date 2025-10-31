@@ -5,8 +5,10 @@
     ./hyprpaper.nix 
     ./hyprlock.nix 
     ./hyprsunset.nix 
-    ./rofi/default.nix
     ./waybar.nix
+
+    ./vicinae.nix
+    ./rofi
 
     ./sway.nix
   ];

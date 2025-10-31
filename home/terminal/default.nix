@@ -2,8 +2,8 @@
 {
   imports = [
     ./helix
+    ./ghostty
     ./tmux.nix
-    ./ghostty.nix
     ./alacritty.nix
     ./git.nix
     ./gh.nix

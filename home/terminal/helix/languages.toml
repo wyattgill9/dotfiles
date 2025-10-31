@@ -10,3 +10,11 @@ language-servers = ["steel-language-server"]
 [language-server.steel-language-server]
 command = "steel-language-server"
 args = []
+
+[[language]]
+name = "haskell"
+language-servers = ["haskell-language-server"]
+
+[language-server.haskell-language-server]
+command = "haskell-language-server-wrapper"
+args = ["--lsp"]

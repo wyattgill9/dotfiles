@@ -3,20 +3,21 @@
 
   inputs = {
     nixpkgs.url = "github:NixOS/nixpkgs/nixos-unstable";
-    darwin = {
-      url = "github:lnl7/nix-darwin";
-      inputs.nixpkgs.follows = "nixpkgs";
-    };
     home-manager = {
       url = "github:nix-community/home-manager/master";
       inputs.nixpkgs.follows = "nixpkgs";
     };
+    darwin = {
+      url = "github:lnl7/nix-darwin";
+      inputs.nixpkgs.follows = "nixpkgs";
+    };
+    flake-utils.url = "github:numtide/flake-utils";
     zen-browser = {
       url = "github:0xc000022070/zen-browser-flake";
       inputs.nixpkgs.follows = "nixpkgs";
     };
     spicetify-nix.url = "github:Gerg-L/spicetify-nix/24.11";
-    flake-utils.url = "github:numtide/flake-utils";
+    vicinae.url = "github:vicinaehq/vicinae";
   };
 
   outputs = {
@@ -24,8 +25,9 @@
     nixpkgs,
     darwin,
     home-manager,
-    spicetify-nix,
     flake-utils,
+    spicetify-nix,
+    vicinae,
     ...
   }@inputs:
     let
@@ -45,6 +47,7 @@
         modules = [
           ./hosts/zen/home.nix
           spicetify-nix.homeManagerModules.spicetify
+          vicinae.homeManagerModules.spicetify
         ];
       };
 
@@ -62,8 +65,9 @@
       in
       {
         devShells = {
-          cpp      = import ./devshells/cpp.nix    { inherit pkgs; };
-          python   = import ./devshells/python.nix { inherit pkgs; };
+          cpp      = import ./devshells/cpp.nix     { inherit pkgs; };
+          python   = import ./devshells/python.nix  { inherit pkgs; };
+          haskell  = import ./devshells/haskell.nix { inherit pkgs; };
         };
       }
     );

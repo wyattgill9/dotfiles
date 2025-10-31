@@ -1,6 +1,6 @@
 { ... }:
 let
-  langs = [ "cpp" "python" ];
+  langs = [ "cpp" "python" "haskell"];
 in
 {
   programs.zsh = {

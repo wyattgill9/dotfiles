@@ -16,17 +16,17 @@ stdenv.mkDerivation {
     pkg-config
     llvm.clang-tools
     llvm.bintools
-    gdb
-    scc
+    gdb              # Debugger
+    scc              # LOC
   ];
   
   buildInputs = [
-    llvm.libcxx
-    pkgs.openssl.dev
+    llvm.libcxx      # STD/STL
+    pkgs.openssl.dev # OpenSSL
 
-    pkgs.abseil-cpp # Containers
-    pkgs.boost      # Boost
-    pkgs.rapidjson
+    pkgs.abseil-cpp  # Containers
+    pkgs.boost       # Boost
+    pkgs.rapidjson   # RapidJSON
   ];
   
   LD_LIBRARY_PATH = pkgs.lib.makeLibraryPath [ 
