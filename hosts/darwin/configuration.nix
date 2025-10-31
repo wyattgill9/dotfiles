@@ -19,6 +19,7 @@
     home = "/Users/${config.system.primaryUser}";
   };
 
+  # why are we configuring home brew with global and not home manager?
   homebrew = {
     enable = true;
     onActivation = {

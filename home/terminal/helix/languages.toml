@@ -1,3 +1,5 @@
+use-grammars = { only = [ "cpp", "python", "haskell", "nix" ] }
+
 [[language]]
 name = "cpp"
 file-types = ["cpp", "hpp", "c", "h", "cppm"]

@@ -6,7 +6,12 @@ in
   programs.zsh = {
     enable = true;
     autosuggestion.enable = true;
+
     initContent = ''
+      if [ "$(uname)" = "Darwin" ]; then
+        . /nix/var/nix/profiles/default/etc/profile.d/nix-daemon.sh
+      fi
+
       eval "$(starship init zsh)"
       eval "$(zoxide init zsh)"
 

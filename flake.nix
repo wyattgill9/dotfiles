@@ -1,14 +1,10 @@
 {
-  description = "Wyatt Gill's (rainyzen) NixOS & Darwin flake";
+  description = "Wyatt Gill's (rainyzen) NixOS & MacOS flake";
 
   inputs = {
     nixpkgs.url = "github:NixOS/nixpkgs/nixos-unstable";
     home-manager = {
       url = "github:nix-community/home-manager/master";
-      inputs.nixpkgs.follows = "nixpkgs";
-    };
-    darwin = {
-      url = "github:lnl7/nix-darwin";
       inputs.nixpkgs.follows = "nixpkgs";
     };
     flake-utils.url = "github:numtide/flake-utils";
@@ -23,7 +19,6 @@
   outputs = {
     self,
     nixpkgs,
-    darwin,
     home-manager,
     flake-utils,
     spicetify-nix,
@@ -51,10 +46,12 @@
         ];
       };
 
-      darwinConfigurations."Wyatts-MacBook-Air" = darwin.lib.darwinSystem {
-        system = systemDarwin;
-        specialArgs = { inherit inputs; };
-        modules = [ ./hosts/darwin/configuration.nix ];
+      homeConfigurations."wyattgill@mac" = home-manager.lib.homeManagerConfiguration {
+        pkgs = nixpkgs.legacyPackages.${systemDarwin};
+        extraSpecialArgs = { inherit inputs self; };
+        modules = [
+          ./hosts/darwin/home.nix
+        ];
       };
     } //
 
