@@ -2,7 +2,9 @@
 {
   programs.git = {
     enable = true;
-    userName = "wyattgill9";
-    userEmail = "101477459+wyattgill9@users.noreply.github.com";
+    settings = {
+      user.name = "wyattgill9";
+      user.email = "101477459+wyattgill9@users.noreply.github.com";
+    };
   };
 }

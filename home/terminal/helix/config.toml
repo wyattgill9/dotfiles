@@ -4,6 +4,9 @@ theme = "tokyonight"
 idle-timeout = 50
 true-color = true
 mouse = false
+shell = ["zsh", "-c"]
+completion-replace = true
+bufferline = "multiple"
 
 [editor.cursor-shape]
 normal = "block"

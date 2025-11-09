@@ -1,13 +1,9 @@
 { pkgs, ... }:
 {
   home.packages = with pkgs; [
-    nixd # Nix LSP
-    steel
-
+    nixd  # Nix LSP
+    # steel # Scheme my beloved
     
-    neovim
-    
-    just
     ripgrep
     fzf
     lsd

@@ -1,17 +1,21 @@
 { ... }:
 {
   imports = [
-    ./helix
     ./ghostty
     ./tmux.nix
-    ./alacritty.nix
-    ./git.nix
-    ./gh.nix
+    ./helix
+
     ./zsh.nix
-    ./zoxide.nix
+
     ./starship.nix
+    ./zoxide.nix
     ./btop.nix
     ./bat.nix
+
+    ./git.nix
+    ./gh.nix
+
+    ./alacritty.nix
     ./pkgs.nix
   ];
 }

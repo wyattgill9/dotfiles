@@ -16,10 +16,10 @@ stdenv.mkDerivation {
     pkg-config
     llvm.clang-tools
     llvm.bintools
-    gdb              # Debugger
     scc              # LOC
-  ];
-  
+    gdb    # Linux Debugger
+  ];  
+
   buildInputs = [
     llvm.libcxx      # STD/STL
     pkgs.openssl.dev # OpenSSL

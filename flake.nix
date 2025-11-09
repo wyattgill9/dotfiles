@@ -1,5 +1,5 @@
 {
-  description = "Wyatt Gill's (rainyzen) NixOS & MacOS flake";
+  description = "rainyzen's flake";
 
   inputs = {
     nixpkgs.url = "github:NixOS/nixpkgs/nixos-unstable";
@@ -7,7 +7,8 @@
       url = "github:nix-community/home-manager/master";
       inputs.nixpkgs.follows = "nixpkgs";
     };
-    flake-utils.url = "github:numtide/flake-utils";
+    # flake-utils.url = "github:numtide/flake-utils";
+    flake-utils = ./lib.nix;
     zen-browser = {
       url = "github:0xc000022070/zen-browser-flake";
       inputs.nixpkgs.follows = "nixpkgs";
@@ -25,19 +26,15 @@
     vicinae,
     ...
   }@inputs:
-    let
-      systemLinux = "x86_64-linux";
-      systemDarwin = "aarch64-darwin";
-    in
     {
       nixosConfigurations.zen = nixpkgs.lib.nixosSystem {
-        system = systemLinux;
+        system = "x86_64-linux";
         specialArgs = { inherit inputs; };
         modules = [ ./hosts/zen/configuration.nix ];
       };
 
       homeConfigurations."wyattgill@zen" = home-manager.lib.homeManagerConfiguration {
-        pkgs = nixpkgs.legacyPackages.${systemLinux};
+        # pkgs = nixpkgs.legacyPackages.${systemLinux};
         extraSpecialArgs = { inherit inputs self; };
         modules = [
           ./hosts/zen/home.nix
@@ -47,10 +44,10 @@
       };
 
       homeConfigurations."wyattgill@mac" = home-manager.lib.homeManagerConfiguration {
-        pkgs = nixpkgs.legacyPackages.${systemDarwin};
+        # pkgs = nixpkgs.legacyPackages.${systemDarwin};
         extraSpecialArgs = { inherit inputs self; };
         modules = [
-          ./hosts/darwin/home.nix
+          ./hosts/macos/home.nix
         ];
       };
     } //

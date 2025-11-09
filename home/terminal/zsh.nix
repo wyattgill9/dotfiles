@@ -12,6 +12,8 @@ in
         . /nix/var/nix/profiles/default/etc/profile.d/nix-daemon.sh
       fi
 
+      unset DEVELOPER_DIR
+
       eval "$(starship init zsh)"
       eval "$(zoxide init zsh)"
 
