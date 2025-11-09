@@ -1,10 +1,7 @@
 { ... }:
-let
-  homePath = ../../home;
-in
 {
   imports = [
-    (homePath + /terminal)
+    ../../home/profiles/macos.nix
   ];
  
   home.username = "wyattgill";

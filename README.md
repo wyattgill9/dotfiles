@@ -9,3 +9,10 @@
 
 [**NixOS Machine Specs**](https://pcpartpicker.com/list/ygQKGJ) --
 [**Macbook Specs**](https://www.apple.com/shop/buy-mac/macbook-air/13-inch-sky-blue-m4-chip-with-10-core-cpu-8-core-gpu-16gb-memory-256gb)
+
+```zsh
+NixOS		     : sudo nixos-rebuild switch --flake ~/nx#zen
+Home-Manager : home-manager switch --flake ~/nx#wyattgill@zen
+
+MacOS	       : home-manager switch --flake ~/nx#wyattgill@mac
+```

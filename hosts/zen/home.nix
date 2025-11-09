@@ -1,11 +1,7 @@
 { pkgs, ... }:
-let
-  homePath = ../../home;
-in {
+{
   imports = [
-    (homePath + /terminal)
-    (homePath + /wm)
-    (homePath + /app)
+    ../../home/profiles/linux.nix
   ];
  
   nixpkgs.config.allowUnfree = true;
@@ -33,6 +29,6 @@ in {
     libnotify
     wl-clipboard
     mplayer     
-    adwaita-icon-theme  
-  ]; 
+    adwaita-icon-theme 
+  ];
 }

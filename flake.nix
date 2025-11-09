@@ -7,8 +7,6 @@
       url = "github:nix-community/home-manager/master";
       inputs.nixpkgs.follows = "nixpkgs";
     };
-    # flake-utils.url = "github:numtide/flake-utils";
-    flake-utils = ./lib.nix;
     zen-browser = {
       url = "github:0xc000022070/zen-browser-flake";
       inputs.nixpkgs.follows = "nixpkgs";
@@ -21,11 +19,15 @@
     self,
     nixpkgs,
     home-manager,
-    flake-utils,
     spicetify-nix,
     vicinae,
     ...
   }@inputs:
+  let
+    util = import ./lib.nix { 
+      defaultSystems = [ "x86_64-linux" "aarch64-darwin" ];
+    };
+  in
     {
       nixosConfigurations.zen = nixpkgs.lib.nixosSystem {
         system = "x86_64-linux";
@@ -34,8 +36,11 @@
       };
 
       homeConfigurations."wyattgill@zen" = home-manager.lib.homeManagerConfiguration {
-        # pkgs = nixpkgs.legacyPackages.${systemLinux};
-        extraSpecialArgs = { inherit inputs self; };
+        pkgs = inputs.nixpkgs.legacyPackages.x86_64-linux;
+        extraSpecialArgs = {
+          inherit inputs self;
+          system = "x86_64-linux";
+        };
         modules = [
           ./hosts/zen/home.nix
           spicetify-nix.homeManagerModules.spicetify
@@ -44,8 +49,11 @@
       };
 
       homeConfigurations."wyattgill@mac" = home-manager.lib.homeManagerConfiguration {
-        # pkgs = nixpkgs.legacyPackages.${systemDarwin};
-        extraSpecialArgs = { inherit inputs self; };
+        pkgs = inputs.nixpkgs.legacyPackages.aarch64-darwin;
+        extraSpecialArgs = {
+          inherit inputs self;
+          system = "aarch64-darwin";
+        };
         modules = [
           ./hosts/macos/home.nix
         ];
@@ -53,7 +61,7 @@
     } //
 
     # Devshells  
-    flake-utils.lib.eachDefaultSystem (system:
+    util.eachDefaultSystem (system:
       let
         pkgs = nixpkgs.legacyPackages.${system};
       in
