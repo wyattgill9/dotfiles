@@ -1,22 +1,19 @@
 { pkgs }:
 pkgs.stdenv.mkDerivation {
-  pname = "python-dev-env";
+  pname = "scheme-dev-env";
   version = "1.0";
 
   nativeBuildInputs = with pkgs; [
-    uv
-    ruff
+    steel
   ];
 
   shellHook = ''
     echo "Development environment ready!"
-    echo "  Python: $(python3 --version)"
-    echo "  Ruff:   $(ruff --version)"
-    echo "  uv:     $(uv --version)"
+    echo "  Steel: $(steel --version)"
   '';
 
   meta = with pkgs.lib; {
-    description = "Python development environment with uv and ruff";
+    description = "Scheme development environment with Steel";
     license = licenses.mit;
     platforms = platforms.all;
   };

@@ -1,15 +1,14 @@
 { ... }:
-
 {
   imports = [
     ./pipewire.nix
     ./programs.nix
-    ./steam.nix 
+    ./steam.nix
     ./bootloader.nix
     ./locale.nix
     ./hardware.nix
     ./network.nix
-    ./services.nix 
+    ./services.nix
     ./pkgs.nix
   ];
 }

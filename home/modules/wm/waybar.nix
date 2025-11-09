@@ -65,7 +65,11 @@
         temperature = {
           critical-threshold = 80;
           format = "{icon} {temperatureC}°C";
-          format-icons = ["" "" ""];
+          format-icons = [
+            ""
+            ""
+            ""
+          ];
         };
         battery = {
           states = {
@@ -77,7 +81,13 @@
           format-charging = "  {capacity}%";
           format-plugged = "  {capacity}%";
           format-alt = "{time} {icon}";
-          format-icons = ["" "" "" "" ""];
+          format-icons = [
+            ""
+            ""
+            ""
+            ""
+            ""
+          ];
         };
         network = {
           format-wifi = "  {signalStrength}%";
@@ -99,13 +109,17 @@
             phone = "";
             portable = "";
             car = "";
-            default = ["" "" ""];
+            default = [
+              ""
+              ""
+              ""
+            ];
           };
           on-click = "pavucontrol";
         };
       };
     };
-    
+
     style = ''
       @define-color rosewater #f4dbd6;
       @define-color flamingo #f0c6c6;
@@ -133,7 +147,7 @@
       @define-color base #24273a;
       @define-color mantle #1e2030;
       @define-color crust #181926;
-      
+
       * {
         font-family: "JetBrainsMono Nerd Font", Roboto, Helvetica, Arial, sans-serif;
         font-size: 16px;

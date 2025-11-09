@@ -1,10 +1,10 @@
-{ 
+{
   defaultSystems ? [
     "aarch64-linux"
     "aarch64-darwin"
     "x86_64-darwin"
     "x86_64-linux"
-  ]
+  ],
 }:
 let
   inherit defaultSystems;
@@ -89,18 +89,18 @@ let
   #
   # Instead of typing `"x86_64-linux"`, type `flake-utils.lib.system.x86_64-linux`
   # and get an error back if you used a dash instead of an underscore.
-  system =
-    builtins.listToAttrs
-      (map (system: { name = system; value = system; }) allSystems);
-
+  system = builtins.listToAttrs (
+    map (system: {
+      name = system;
+      value = system;
+    }) allSystems
+  );
 
   # Applies a merge operation accross systems.
   eachSystemOp =
     op: systems: f:
     builtins.foldl' (op f) { } (
-      if
-        !builtins ? currentSystem || builtins.elem builtins.currentSystem systems
-      then
+      if !builtins ? currentSystem || builtins.elem builtins.currentSystem systems then
         systems
       else
         # Add the current system if the --impure flag is used.
@@ -123,7 +123,7 @@ let
       }
     ) attrs (builtins.attrNames ret)
   );
-  
+
   eachDefaultSystem = eachSystem defaultSystems;
 
   lib = {
@@ -134,6 +134,6 @@ let
       eachSystem
       system
       ;
-  }; 
+  };
 in
 lib

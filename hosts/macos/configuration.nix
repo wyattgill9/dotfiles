@@ -1,5 +1,8 @@
-{ inputs, config, ... }:
-
+{
+  inputs,
+  config,
+  ...
+}:
 {
   nix.enable = false;
 
@@ -10,7 +13,7 @@
   ];
 
   system = {
-    primaryUser  = "wyattgill";
+    primaryUser = "wyattgill";
     stateVersion = 6;
   };
 

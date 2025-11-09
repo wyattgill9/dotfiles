@@ -1,5 +1,4 @@
 { pkgs }:
-
 pkgs.stdenv.mkDerivation {
   pname = "haskell-dev-env";
   version = "1.0";

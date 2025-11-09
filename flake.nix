@@ -15,19 +15,23 @@
     vicinae.url = "github:vicinaehq/vicinae";
   };
 
-  outputs = {
-    self,
-    nixpkgs,
-    home-manager,
-    spicetify-nix,
-    vicinae,
-    ...
-  }@inputs:
-  let
-    util = import ./lib.nix { 
-      defaultSystems = [ "x86_64-linux" "aarch64-darwin" ];
-    };
-  in
+  outputs =
+    {
+      self,
+      nixpkgs,
+      home-manager,
+      spicetify-nix,
+      vicinae,
+      ...
+    }@inputs:
+    let
+      util = import ./lib.nix {
+        defaultSystems = [
+          "x86_64-linux"
+          "aarch64-darwin"
+        ];
+      };
+    in
     {
       nixosConfigurations.zen = nixpkgs.lib.nixosSystem {
         system = "x86_64-linux";
@@ -58,19 +62,22 @@
           ./hosts/macos/home.nix
         ];
       };
-    } //
-
-    # Devshells  
-    util.eachDefaultSystem (system:
-      let
-        pkgs = nixpkgs.legacyPackages.${system};
-      in
-      {
-        devShells = {
-          cpp      = import ./devshells/cpp.nix     { inherit pkgs; };
-          python   = import ./devshells/python.nix  { inherit pkgs; };
-          haskell  = import ./devshells/haskell.nix { inherit pkgs; };
-        };
-      }
-    );
-} 
+    }
+    //
+      # Devshells
+      util.eachDefaultSystem (
+        system:
+        let
+          pkgs = nixpkgs.legacyPackages.${system};
+        in
+        {
+          devShells = {
+            cpp = import ./devshells/cpp.nix { inherit pkgs; };
+            rust = import ./devshells/rust.nix { inherit pkgs; };
+            haskell = import ./devshells/haskell.nix { inherit pkgs; };
+            scheme = import ./devshells/scheme.nix { inherit pkgs; };
+            python = import ./devshells/python.nix { inherit pkgs; };
+          };
+        }
+      );
+}

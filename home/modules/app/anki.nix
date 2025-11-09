@@ -1,7 +1,7 @@
 { ... }:
 {
   programs.anki = {
-    enable   = true;
-    language = "en_US";    
+    enable = true;
+    language = "en_US";
   };
 }

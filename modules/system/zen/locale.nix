@@ -1,12 +1,18 @@
-{ pkgs, input, ...}:
-
+{
+  pkgs,
+  input,
+  ...
+}:
 {
   nix.settings = {
-    experimental-features = [ "nix-command" "flakes" ];
+    experimental-features = [
+      "nix-command"
+      "flakes"
+    ];
   };
 
   time.timeZone = "America/Los_Angeles";
-  
+
   i18n = {
     defaultLocale = "en_US.UTF-8";
     inputMethod = {
@@ -17,10 +23,10 @@
         addons = with pkgs; [
           fcitx5-gtk
           fcitx5-chinese-addons
-          fcitx5-nord      
+          fcitx5-nord
         ];
       };
-    }; 
+    };
     extraLocaleSettings = {
       LC_ALL = "en_US.UTF-8";
     };
@@ -28,8 +34,8 @@
 
   fonts = {
     enableDefaultPackages = true;
-    packages = with pkgs; [ 
-      nerd-fonts._0xproto 
+    packages = with pkgs; [
+      nerd-fonts._0xproto
       noto-fonts
     ];
 

@@ -1,9 +1,9 @@
 { pkgs, ... }:
 {
   home.packages = with pkgs; [
-    nixd  # Nix LSP
-    # steel # Scheme my beloved
-    
+    nixd # Nix LSP
+    nixfmt-tree
+
     ripgrep
     fzf
     lsd

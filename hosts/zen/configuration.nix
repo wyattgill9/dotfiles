@@ -1,5 +1,8 @@
-{ pkgs, inputs ? {}, ... }:
-
+{
+  pkgs,
+  inputs ? { },
+  ...
+}:
 {
   imports = [
     ./hardware.nix
@@ -10,7 +13,14 @@
   users.users.wyattgill = {
     isNormalUser = true;
     description = "wyattgill";
-    extraGroups = [ "libvirtd" "networkmanager" "wheel" "kvm" "input" "seat"];
+    extraGroups = [
+      "libvirtd"
+      "networkmanager"
+      "wheel"
+      "kvm"
+      "input"
+      "seat"
+    ];
     shell = pkgs.zsh;
   };
 
@@ -19,6 +29,6 @@
     dates = "weekly";
     options = "--delete-older-than 30d";
   };
- 
+
   system.stateVersion = "25.11";
 }

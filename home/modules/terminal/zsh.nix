@@ -1,6 +1,12 @@
 { ... }:
 let
-  langs = [ "cpp" "python" "haskell"];
+  langs = [
+    "cpp"
+    "rust"
+    "haskell"
+    "scheme"
+    "python"
+  ];
 in
 {
   programs.zsh = {
@@ -22,15 +28,17 @@ in
     '';
 
     shellAliases = {
-        cd  = "z";
-        c   = "clear";
-        cat = "bat";
-        ls  = "lsd";
-        cmk = "cmake -S . -B build -G Ninja && cmake --build build";
-      }
-      // builtins.listToAttrs (map (lang: {
+      cd = "z";
+      c = "clear";
+      cat = "bat";
+      ls = "lsd";
+      cmk = "cmake -S . -B build -G Ninja && cmake --build build";
+    }
+    // builtins.listToAttrs (
+      map (lang: {
         name = "${lang}-dev";
         value = "nix develop ~/nx#${lang} -c zsh";
-      }) langs);
+      }) langs
+    );
   };
 }

@@ -10,7 +10,7 @@
       env = {
         TERM = "xterm-256color";
       };
-  
+
       font = {
         normal = {
           family = "0xProto Nerd Font";
@@ -26,6 +26,6 @@
         };
         size = 12.0;
       };
-   };
+    };
   };
 }

@@ -1,8 +1,7 @@
 { pkgs, ... }:
-
 {
   networking = {
-    hostName = "zen"; 
+    hostName = "zen";
     networkmanager.enable = true;
   };
 

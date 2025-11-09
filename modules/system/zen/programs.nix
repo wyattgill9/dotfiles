@@ -1,10 +1,14 @@
-{ pkgs, inputs, ... }:
+{
+  pkgs,
+  inputs,
+  ...
+}:
 {
   programs = {
     zsh.enable = true;
     nix-ld.enable = true;
 
-    # APPIMAGES 
+    # APPIMAGES
     appimage = {
       enable = true;
       binfmt = true;
