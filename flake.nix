@@ -25,7 +25,7 @@
       ...
     }@inputs:
     let
-      util = import ./lib.nix {
+      util = import ./util.nix {
         defaultSystems = [
           "x86_64-linux"
           "aarch64-darwin"
@@ -64,6 +64,7 @@
       };
     }
     //
+
       # Devshells
       util.eachDefaultSystem (
         system:
@@ -75,8 +76,8 @@
             cpp = import ./devshells/cpp.nix { inherit pkgs; };
             rust = import ./devshells/rust.nix { inherit pkgs; };
             haskell = import ./devshells/haskell.nix { inherit pkgs; };
-            scheme = import ./devshells/scheme.nix { inherit pkgs; };
             python = import ./devshells/python.nix { inherit pkgs; };
+            scheme = import ./devshells/scheme.nix { inherit pkgs; };
           };
         }
       );

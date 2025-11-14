@@ -13,7 +13,7 @@ in
       # package = pkgs.mesa;
       extraPackages = with pkgs; [
         libvdpau-va-gl
-        vaapiVdpau
+        libva-vdpau-driver
         mesa
         mesa.opencl
       ];

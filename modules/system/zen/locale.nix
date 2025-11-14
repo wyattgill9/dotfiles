@@ -1,16 +1,8 @@
 {
   pkgs,
-  input,
   ...
 }:
 {
-  nix.settings = {
-    experimental-features = [
-      "nix-command"
-      "flakes"
-    ];
-  };
-
   time.timeZone = "America/Los_Angeles";
 
   i18n = {
@@ -22,7 +14,7 @@
         waylandFrontend = true;
         addons = with pkgs; [
           fcitx5-gtk
-          fcitx5-chinese-addons
+          qt6Packages.fcitx5-chinese-addons
           fcitx5-nord
         ];
       };

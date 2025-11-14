@@ -31,7 +31,7 @@ in
       cd = "z";
       c = "clear";
       cat = "bat";
-      ls = "lsd";
+      # ls = "lsd";
       cmk = "cmake -S . -B build -G Ninja && cmake --build build";
     }
     // builtins.listToAttrs (
