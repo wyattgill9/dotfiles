@@ -7,7 +7,7 @@
   nixpkgs.config.allowUnfree = true;
   home.username = "wyattgill";
   home.homeDirectory = "/home/wyattgill";
-  home.stateVersion = "25.11";
+  home.stateVersion = "24.05";
 
   systemd.user.startServices = "sd-switch";
   programs.home-manager.enable = true;

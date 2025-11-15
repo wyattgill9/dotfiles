@@ -3,14 +3,17 @@
 
   inputs = {
     nixpkgs.url = "github:NixOS/nixpkgs/nixos-unstable";
+
     home-manager = {
       url = "github:nix-community/home-manager/master";
       inputs.nixpkgs.follows = "nixpkgs";
     };
+
     zen-browser = {
       url = "github:0xc000022070/zen-browser-flake";
       inputs.nixpkgs.follows = "nixpkgs";
     };
+
     spicetify-nix.url = "github:Gerg-L/spicetify-nix/24.11";
     vicinae.url = "github:vicinaehq/vicinae";
   };
@@ -32,41 +35,39 @@
         ];
       };
     in
-    {
-      nixosConfigurations.zen = nixpkgs.lib.nixosSystem {
-        system = "x86_64-linux";
-        specialArgs = { inherit inputs; };
-        modules = [ ./hosts/zen/configuration.nix ];
-      };
-
-      homeConfigurations."wyattgill@zen" = home-manager.lib.homeManagerConfiguration {
-        pkgs = inputs.nixpkgs.legacyPackages.x86_64-linux;
-        extraSpecialArgs = {
-          inherit inputs self;
+    (
+      {
+        nixosConfigurations.zen = nixpkgs.lib.nixosSystem {
           system = "x86_64-linux";
+          specialArgs = { inherit inputs; };
+          modules = [ ./hosts/zen/configuration.nix ];
         };
-        modules = [
-          ./hosts/zen/home.nix
-          spicetify-nix.homeManagerModules.spicetify
-          vicinae.homeManagerModules.spicetify
-        ];
-      };
 
-      homeConfigurations."wyattgill@mac" = home-manager.lib.homeManagerConfiguration {
-        pkgs = inputs.nixpkgs.legacyPackages.aarch64-darwin;
-        extraSpecialArgs = {
-          inherit inputs self;
-          system = "aarch64-darwin";
+        homeConfigurations."wyattgill@zen" = home-manager.lib.homeManagerConfiguration {
+          pkgs = inputs.nixpkgs.legacyPackages.x86_64-linux;
+          extraSpecialArgs = {
+            inherit inputs self;
+            system = "x86_64-linux";
+          };
+          modules = [
+            ./hosts/zen/home.nix
+            spicetify-nix.homeManagerModules.spicetify
+            vicinae.homeManagerModules.spicetify
+          ];
         };
-        modules = [
-          ./hosts/macos/home.nix
-        ];
-      };
-    }
-    //
 
-      # Devshells
-      util.eachDefaultSystem (
+        homeConfigurations."wyattgill@mac" = home-manager.lib.homeManagerConfiguration {
+          pkgs = inputs.nixpkgs.legacyPackages.aarch64-darwin;
+          extraSpecialArgs = {
+            inherit inputs self;
+            system = "aarch64-darwin";
+          };
+          modules = [
+            ./hosts/macos/home.nix
+          ];
+        };
+      }
+      // util.eachDefaultSystem (
         system:
         let
           pkgs = nixpkgs.legacyPackages.${system};
@@ -80,5 +81,6 @@
             scheme = import ./devshells/scheme.nix { inherit pkgs; };
           };
         }
-      );
+      )
+    );
 }

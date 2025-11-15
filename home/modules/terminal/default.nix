@@ -15,7 +15,7 @@
     ./git.nix
     ./gh.nix
 
-    ./alacritty.nix
+    ./foot.nix
     ./pkgs.nix
   ];
 }
