@@ -16,6 +16,7 @@ args = []
 [[language]]
 name = "haskell"
 language-servers = ["haskell-language-server"]
+formatter = { command = "fourmolu" , args = ["-i"] }
 
 [language-server.haskell-language-server]
 command = "haskell-language-server-wrapper"

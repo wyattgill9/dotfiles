@@ -5,7 +5,6 @@
 }:
 {
   programs.helix.enable = true;
-  programs.lazygit.enable = pkgs.stdenv.isLinux;
 
   home.file.".config/helix" = {
     source = ./.;

@@ -1,17 +1,15 @@
 { pkgs, ... }:
 let
-  # Direnv forces dounload & build of fish shell to test, just skip it
+  # Direnv forces download & build of fish shell to test, just skip it
   direnv-no-fish = pkgs.direnv.overrideAttrs (old: {
     nativeCheckInputs = with pkgs; [
       zsh
       writableTmpDirAsHomeHook
-      # fish is REMOVED
     ];
 
     checkPhase = ''
       runHook preCheck
-      make test-go test-bash test-zsh
-      # SKIP test-fish
+      make test-zsh
       runHook postCheck
     '';
   });

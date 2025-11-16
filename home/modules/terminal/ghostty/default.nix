@@ -5,9 +5,9 @@
     recursive = true;
   };
 
-  programs.ghostty = pkgs.lib.mkIf pkgs.stdenv.isLinux {
+  programs.ghostty = {
     enable = true;
-    package = pkgs.ghostty;
+    package = if pkgs.stdenv.isLinux then pkgs.ghostty else null;
 
     enableZshIntegration = true;
     installBatSyntax = pkgs.stdenv.isLinux;

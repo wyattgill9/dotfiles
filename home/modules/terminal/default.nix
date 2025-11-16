@@ -12,8 +12,7 @@
     ./btop.nix
     ./bat.nix
 
-    ./git.nix
-    ./gh.nix
+    ./vcs.nix
 
     ./foot.nix
     ./pkgs.nix
