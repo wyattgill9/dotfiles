@@ -1,4 +1,4 @@
-use-grammars = { only = [ "cpp", "rust", "haskell", "scheme", "python", "nix" ] }
+use-grammars = { only = [ "cpp", "rust", "haskell", "scheme", "python", "nix", "javascript", "html", "css"] }
 
 [[language]]
 name = "cpp"
