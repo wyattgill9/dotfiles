@@ -1,3 +1,4 @@
 /build/
 /.cache/
 /dist-newstyle/
+.DS_STORE

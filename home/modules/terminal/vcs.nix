@@ -5,7 +5,7 @@
     settings = {
       user = {
         name = "wyattgill9";
-        email = "101477459+wyattgill9@users.noreply.github.com";
+        email = "wyattgill01@outlook.com";
       };
     };
   };

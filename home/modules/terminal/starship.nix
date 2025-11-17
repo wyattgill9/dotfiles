@@ -8,7 +8,6 @@
         "$hostname"
         "$directory"
         "$git_branch"
-        "$git_status"
         "$line_break"
         "$time"
         "$character"
@@ -44,15 +43,6 @@
       git_branch = {
         format = "via [$branch]($style) ";
         style = "bold purple";
-      };
-
-      git_status = {
-        format = ''([\[$all_status\]]($style) )'';
-        style = "bold red";
-        modified = "!";
-        staged = "+";
-        stashed = "📦";
-        untracked = "?";
       };
 
       time = {
