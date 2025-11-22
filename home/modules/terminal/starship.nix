@@ -7,7 +7,7 @@
         "$username"
         "$hostname"
         "$directory"
-        "$git_branch"
+        "\${custom.jj}"
         "$line_break"
         "$time"
         "$character"
@@ -40,9 +40,34 @@
         truncate_to_repo = true;
       };
 
+      # Disable git modules when in a jj repo
       git_branch = {
-        format = "via [$branch]($style) ";
-        style = "bold purple";
+        disabled = true;
+      };
+
+      custom.git_branch = {
+        when = "! jj --ignore-working-copy root";
+        command = "starship module git_branch";
+        style = "";
+        description = "Only show git_branch if we're not in a jj repo";
+      };
+
+      # JJ status module
+      custom.jj = {
+        command = ''
+          jj log --revisions @ --limit 1 --ignore-working-copy --no-graph --color always --template '
+            separate(" ",
+              bookmarks.map(|x| truncate_end(10, x.name(), "…")).join(" "),
+              tags.map(|x| truncate_end(10, x.name(), "…")).join(" "),
+              surround("\"", "\"", truncate_end(24, description.first_line(), "…")),
+              if(conflict, "conflict"),
+              if(divergent, "divergent"),
+              if(hidden, "hidden"),
+            )
+          '
+        '';
+        when = "jj --ignore-working-copy root";
+        symbol = "";
       };
 
       time = {

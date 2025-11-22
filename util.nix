@@ -1,9 +1,9 @@
 {
   defaultSystems ? [
-    "aarch64-linux"
-    "aarch64-darwin"
-    "x86_64-darwin"
-    "x86_64-linux"
+    "aarch64-linux"  # ARM Linux
+    "aarch64-darwin" # Apple Silicon Mac
+    "x86_64-darwin"  # Intel Mac
+    "x86_64-linux"   # x86 Linux
   ],
 }:
 let
